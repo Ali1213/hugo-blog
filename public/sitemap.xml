@@ -3,19 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ali1213.github.io/post/hello-hugo/</loc>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ali1213.github.io/about/</loc>
     <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ali1213.github.io/post/hello-hugo/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ali1213.github.io/tags/bar/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -24,32 +18,38 @@
   </url>
   
   <url>
-    <loc>http://ali1213.github.io/tags/foo/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
+    <loc>http://ali1213.github.io/tags/hugo/</loc>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ali1213.github.io/post/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ali1213.github.io/tags/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ali1213.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
+    <loc>http://ali1213.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ali1213.github.io/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://ali1213.github.io/feed.xml</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-30T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   

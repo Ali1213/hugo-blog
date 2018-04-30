@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bar on 欢迎来到Ali的秘密花园</title>
-    <link>http://ali1213.github.io/tags/bar/</link>
-    <description>Recent content in Bar on 欢迎来到Ali的秘密花园</description>
+    <title>博客 on 欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on 欢迎来到Ali的秘密花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Mar 2016 12:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Apr 2018 12:13:19 +0800</lastBuildDate>
     
-	<atom:link href="http://ali1213.github.io/tags/bar/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ali1213.github.io/tags/%E5%8D%9A%E5%AE%A2/feed.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>博客静态生成器从hexo更换为hugo</title>
       <link>http://ali1213.github.io/post/hello-hugo/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
+      <pubDate>Mon, 30 Apr 2018 12:13:19 +0800</pubDate>
       
       <guid>http://ali1213.github.io/post/hello-hugo/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;

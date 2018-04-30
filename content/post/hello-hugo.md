@@ -1,8 +1,8 @@
 +++
-date = "2016-03-20T12:13:19+08:00"
+date = "2018-04-30T12:13:19+08:00"
 title = "博客静态生成器从hexo更换为hugo"
-categories = ["搭建工具"]
-tags = ["Foo", "Bar"]
+categories = ["工具使用"]
+tags = ["博客", "hugo"]
 toc = true
 author = "ali"
 author_homepage =  "http://ali1213.github.io/post/"
