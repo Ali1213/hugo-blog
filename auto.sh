@@ -12,7 +12,7 @@ git commit -a -m "auto commit by ali at `date +%Y%m%d`";
 
 git push origin master;
 
-# mv -f public/* $BLOG;
+mv -f public/* $BLOG;
 
 cd  $BLOG;
 
