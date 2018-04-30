@@ -3,63 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://coderzh.github.io/about/</loc>
+    <loc>http://ali1213.github.io/about/</loc>
     <lastmod>2018-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/post/first/</loc>
+    <loc>http://ali1213.github.io/post/hello-hugo/</loc>
     <lastmod>2016-03-20T12:13:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/post/hello-hugo/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://coderzh.github.io/tags/bar/</loc>
+    <loc>http://ali1213.github.io/tags/bar/</loc>
     <lastmod>2016-03-20T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/categories/</loc>
+    <loc>http://ali1213.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/tags/foo/</loc>
+    <loc>http://ali1213.github.io/tags/foo/</loc>
     <lastmod>2016-03-20T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/post/</loc>
+    <loc>http://ali1213.github.io/post/</loc>
     <lastmod>2016-03-20T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/tags/</loc>
+    <loc>http://ali1213.github.io/tags/</loc>
     <lastmod>2016-03-20T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</loc>
+    <loc>http://ali1213.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2016-03-20T12:13:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://coderzh.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2016-03-20T12:13:19+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://coderzh.github.io/feed.xml</loc>
+    <loc>http://ali1213.github.io/feed.xml</loc>
     <lastmod>2018-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

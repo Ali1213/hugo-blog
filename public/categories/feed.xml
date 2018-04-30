@@ -2,29 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 欢迎来到Ali的秘密花园</title>
-    <link>http://coderzh.github.io/categories/</link>
+    <link>http://ali1213.github.io/categories/</link>
     <description>Recent content in Categories on 欢迎来到Ali的秘密花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     
-	<atom:link href="http://coderzh.github.io/categories/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ali1213.github.io/categories/feed.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>技术文章</title>
-      <link>http://coderzh.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
-      
-      <guid>http://coderzh.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>搭建工具</title>
-      <link>http://coderzh.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</link>
+      <link>http://ali1213.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid>
+      <guid>http://ali1213.github.io/categories/%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
     

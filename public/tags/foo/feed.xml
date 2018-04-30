@@ -2,30 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Foo on 欢迎来到Ali的秘密花园</title>
-    <link>http://coderzh.github.io/tags/foo/</link>
+    <link>http://ali1213.github.io/tags/foo/</link>
     <description>Recent content in Foo on 欢迎来到Ali的秘密花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 20 Mar 2016 12:13:19 +0800</lastBuildDate>
     
-	<atom:link href="http://coderzh.github.io/tags/foo/feed.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ali1213.github.io/tags/foo/feed.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>first</title>
-      <link>http://coderzh.github.io/post/first/</link>
-      <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
-      
-      <guid>http://coderzh.github.io/post/first/</guid>
-      <description>主题概况 Balalalalala&amp;hellip; Balalalalala&amp;hellip; 安装指南 aaaaaaa bbbbbbb ccccccc 安装 bold 启用 print(&#39;hello world!&#39;) 更新 Blockquotes are very handy in email to emulate reply text. This line is part of the same quote. 配置指南 Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1 属性 说明 First ordered list item</description>
-    </item>
     
     <item>
       <title>博客静态生成器从hexo更换为hugo</title>
-      <link>http://coderzh.github.io/post/hello-hugo/</link>
+      <link>http://ali1213.github.io/post/hello-hugo/</link>
       <pubDate>Sun, 20 Mar 2016 12:13:19 +0800</pubDate>
       
-      <guid>http://coderzh.github.io/post/hello-hugo/</guid>
+      <guid>http://ali1213.github.io/post/hello-hugo/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 
 &lt;p&gt;好久没有动手写博客了，之前也一直考虑准备学一门其他语言。再加上hexo确实给我的体验并不是太好。所以准备把博客生成器从hexo更换成hugo&lt;/p&gt;
