@@ -1,0 +1,20 @@
+<div class="openaside"><a class="navbutton" href="#" title="{{ .Site.Params.Strings.ShowSideBar }}"></a></div>
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="{{ .Site.Params.Strings.HideSideBar }}"></a></div>
+<aside class="clearfix">
+  {{ partial "widgets/categories" . }}
+  {{ partial "widgets/tags" . }}
+  {{ partial "widgets/archive" . }}
+  {{ partial "widgets/tagcloud" . }}
+  {{ partial "widgets/rss" . }}
+</aside>
+
+<div>
+    <span id="busuanzi_container_site_pv">
+        总浏览数:<span id="busuanzi_value_site_pv"></span>次
+    </span><br />
+    <span id="busuanzi_container_site_uv">
+      日浏览数:<span id="busuanzi_value_site_uv"></span>次
+    </span>
+  </div>
+</div>
