@@ -2,22 +2,22 @@
 
 BLOG="../Ali1213.github.io";
 
-rm -rf $BLOG/*  &&
+rm -rf $BLOG/*;
 
-hugo server &&
+hugo;
 
-git add . &&
+git add . ;
 
-git commit -a -m "auto commit by ali at `date +%Y%m%d`" &&
+git commit -a -m "auto commit by ali at `date +%Y%m%d`";
 
-git push origin master &&
+git push origin master;
 
-mv -f public/* $BLOG &&
+# mv -f public/* $BLOG;
 
-cd  $BLOG &&
+cd  $BLOG;
 
-git add . &&
+git add .;
 
-git commit -a -m "auto commit by ali at `date +%Y%m%d`" &&
+git commit -a -m "auto commit by ali at `date +%Y%m%d`";
 
-git push origin master
+git push origin master;
