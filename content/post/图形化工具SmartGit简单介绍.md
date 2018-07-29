@@ -1,12 +1,12 @@
----
-date = "2016-09-09T11:11:18+08:00"
++++
+date = "2016-09-09T11:56:09+08:00"
 title = "图形化工具SmartGit简单介绍"
 categories = ["工具使用"]
 tags = ["git"]
 toc = true
 author = "ali"
 author_homepage =  "http://ali1213.github.io/post/"
----
++++
 
 
 ## git图形化工具一览
