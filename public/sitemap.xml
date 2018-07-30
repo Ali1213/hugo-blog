@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</loc>
+    <lastmod>2016-11-29T20:46:55+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ali1213.github.io/post/%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%B7%A5%E5%85%B7smartgit%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2016-09-09T11:56:09+08:00</lastmod>
   </url>
@@ -51,6 +56,18 @@
   </url>
   
   <url>
+    <loc>http://ali1213.github.io/categories/javascript/</loc>
+    <lastmod>2016-11-29T20:46:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ali1213.github.io/tags/jquery/</loc>
+    <lastmod>2016-11-29T20:46:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ali1213.github.io/post/</loc>
     <lastmod>2018-04-30T12:13:19+08:00</lastmod>
     <priority>0</priority>
@@ -71,6 +88,12 @@
   <url>
     <loc>http://ali1213.github.io/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2018-04-30T12:13:19+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ali1213.github.io/tags/%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2016-11-29T20:46:55+08:00</lastmod>
     <priority>0</priority>
   </url>
   

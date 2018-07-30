@@ -25,6 +25,22 @@
     </item>
     
     <item>
+      <title>小技巧-console界面使用jQuery</title>
+      <link>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</link>
+      <pubDate>Tue, 29 Nov 2016 20:46:55 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;作为一个前端工程师，偶尔还是会经常在google浏览器的console写写代码，记得第一次在console写代码，真是觉得超酷！
+最开始在控制台，我就很自然的用到jQuery。
+直到有一天，我输入&lt;code&gt;$(&amp;quot;&amp;quot;)&lt;/code&gt;，浏览器给我报了个错！
+what the fuck！！！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>图形化工具SmartGit简单介绍</title>
       <link>http://ali1213.github.io/post/%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%B7%A5%E5%85%B7smartgit%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Fri, 09 Sep 2016 11:56:09 +0800</pubDate>
