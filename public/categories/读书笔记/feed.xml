@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>读书笔记 on 欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 读书笔记 on 欢迎来到Ali的秘密花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 10 Feb 2018 22:31:09 +0800</lastBuildDate>
+    
+	<atom:link href="http://ali1213.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mongoDB常规操作-查询操作符</title>
+      <link>http://ali1213.github.io/post/mongodb%E5%B8%B8%E8%A7%84%E6%93%8D%E4%BD%9C-%E6%9F%A5%E8%AF%A2%E6%93%8D%E4%BD%9C%E7%AC%A6/</link>
+      <pubDate>Sat, 10 Feb 2018 22:31:09 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/mongodb%E5%B8%B8%E8%A7%84%E6%93%8D%E4%BD%9C-%E6%9F%A5%E8%AF%A2%E6%93%8D%E4%BD%9C%E7%AC%A6/</guid>
+      <description>前言 最近看Mongo权威指南的时候，偶然间查了下mongo的官方文档，发现其实增加了很多新的API，打算系统性的过一遍。 比较操作符 $eq 没啥用 因</description>
+    </item>
+    
+    <item>
+      <title>《你不知道的JavaScript-中》读书笔记</title>
+      <link>http://ali1213.github.io/post/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 18 Oct 2017 00:53:13 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这本书的中册还是相当值得推荐的。
+就算对在异步流程中已经踩过很多坑的我来说，也还是有些可以值得学习的东西。&lt;/p&gt;
+
+&lt;p&gt;只把自己记下来的东西写一下，推荐大家还是可以看书。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>对象、类、原型和委托《你不知道的JavaScript-上》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%A7%94%E6%89%98%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Tue, 10 Oct 2017 21:33:28 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%A7%94%E6%89%98%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这本书类和行为委托的部分忍不住看了第二遍。觉得观点很新颖，很有意思。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>作用域和闭包《你不知道的JavaScript-上》读书笔记1</title>
+      <link>http://ali1213.github.io/post/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Sun, 08 Oct 2017 00:28:58 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;5月份的时候立了一个flag，然后就被打脸。
+辞职，失恋。
+新的工作，频繁的加班。
+走三步退两步的减肥计划。
+堕落……&lt;/p&gt;
+
+&lt;p&gt;今天看了电影《被嫌弃的松子的一生》
+隐隐的害怕。&lt;/p&gt;
+
+&lt;p&gt;往前走吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Promise-《understanding-ECMAScipt6》读书笔记11</title>
+      <link>http://ali1213.github.io/post/promise-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B011/</link>
+      <pubDate>Wed, 05 Jul 2017 00:09:59 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/promise-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B011/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;最近实在是发生太多事情。
+昨天差点露宿接头，今天终于把房子搞定了。
+接下来，又可以专心的写代码了。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数组的增强 -《understanding-ECMAScipt6》读书笔记10</title>
+      <link>http://ali1213.github.io/post/%E6%95%B0%E7%BB%84%E7%9A%84%E5%A2%9E%E5%BC%BA-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B010/</link>
+      <pubDate>Thu, 08 Jun 2017 20:04:51 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%95%B0%E7%BB%84%E7%9A%84%E5%A2%9E%E5%BC%BA-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B010/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;前两天看了别人写的博客，对某些知识点挖掘的深度和对知识点描述语言的通俗令我赞叹。
+我写的这一系列读书笔记的初衷是想写给自己备忘的。
+最初的目的，是想要翻到这个文章，就能够自己看的懂描述。
+毕竟有些东西，不常用，细节不一定记得那么清楚。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>class -《understanding ECMAScipt6》读书笔记9</title>
+      <link>http://ali1213.github.io/post/class-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B09/</link>
+      <pubDate>Wed, 07 Jun 2017 16:53:53 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/class-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B09/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;记得之前有一次面试，面试官问我，有几种面对对象的设计方式。
+我一下懵了，，虽然高级程序设计的第六章我看了好多遍，但确实太久没有用了，如果没有准备面试是对面试官的不尊重，我确实有点失礼了。
+有些人说，es6，没有必要记那么多种复杂的类的实现方式了。
+我偏向于这种说法，prototype单词实在太长，而且类的实现方式隐晦难懂。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iterators &amp; generators-《understanding ECMAScipt6》读书笔记8</title>
+      <link>http://ali1213.github.io/post/iterators-generators-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B08/</link>
+      <pubDate>Wed, 31 May 2017 13:04:41 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/iterators-generators-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B08/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;果然不能立flag，上次文章都写完了，可是hexo出了点小问题，再加上正好回家，所以延后了几天。&lt;/p&gt;
+
+&lt;p&gt;发现之前一直提到 迭代器 和 生成器的字眼。其实一直没有讲这方面的东东。iterators 在es6中应用的还是挺广的，set，map，array，string都有这样的入口，generators是es7中async的基础。个人认为还是挺重要的。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sets和Maps《understanding ECMAScipt6》读书笔记7</title>
+      <link>http://ali1213.github.io/post/sets%E5%92%8Cmapsunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B07/</link>
+      <pubDate>Fri, 19 May 2017 14:16:26 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/sets%E5%92%8Cmapsunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B07/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;让我们来愉快的立一个Flag:
+每周写一篇文章
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Symbol《understanding ECMAScipt6》读书笔记6</title>
+      <link>http://ali1213.github.io/post/symbolunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06/</link>
+      <pubDate>Thu, 27 Apr 2017 18:08:30 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/symbolunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06/</guid>
+      <description>&lt;h2 id=&#34;什么是symbol&#34;&gt;什么是Symbol&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ES6 新增的类型&lt;/li&gt;
+&lt;li&gt;原始类型&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解构赋值-《understanding ECMAScipt6》读书笔记5</title>
+      <link>http://ali1213.github.io/post/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</link>
+      <pubDate>Wed, 26 Apr 2017 17:02:51 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</guid>
+      <description>&lt;h2 id=&#34;对象解构赋值&#34;&gt;对象解构赋值&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;let node = {
+    type: &amp;quot;string&amp;quot;,
+    name: &amp;quot;foo&amp;quot;
+};
+let {type, name} = node;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>对象的功能扩展-《understanding ECMAScipt6》读书笔记4</title>
+      <link>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <pubDate>Tue, 25 Apr 2017 18:33:46 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <description>&lt;h2 id=&#34;对象分类&#34;&gt;对象分类&lt;/h2&gt;
+
+&lt;p&gt;ES6将对象分为以下几类:
++ 普通对象
++ 外来对象
++ 标准对象
++ 内建对象&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>函数-《understanding ECMAScipt6》读书笔记3</title>
+      <link>http://ali1213.github.io/post/%E5%87%BD%E6%95%B0-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
+      <pubDate>Mon, 17 Apr 2017 12:35:56 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%87%BD%E6%95%B0-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
+      <description>&lt;p&gt;##前言
+其实这本书已经看完很久了。前几天突然有人在微信群里分享了别人的翻译版本。如果有些人会觉得这本书英文比较难理解，还是可以去找翻译版的看一看。
+我还是接着回顾一下知识点吧。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>块级作用域-《understanding ECMAScipt6》读书笔记1</title>
+      <link>http://ali1213.github.io/post/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Wed, 15 Mar 2017 20:22:12 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
+      <description>&lt;h2 id=&#34;针对的问题&#34;&gt;针对的问题&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;变量提升 令人困惑&lt;/li&gt;
+&lt;li&gt;改变window对象或global对象的属性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记4</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <pubDate>Mon, 16 May 2016 21:18:23 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <description>前言 昨天晚上看完了JQ第四章, 话说其实每天要用电脑打字感觉挺累的。上班敲了一天的代码，下班感觉什么都不想动。 jQuery中的事件和动画 事件 这</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记3</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
+      <pubDate>Sun, 15 May 2016 16:41:24 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
+      <description>前言 前阵子在知乎上看到有一个问题是：“JQ有没有过时”，感觉最悲惨的事情莫过于，你还是刚刚开始熟练，别人却在讨论JQ的过时。随着ES6的诞生</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Sun, 01 May 2016 19:03:25 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>前言 好几天因为各种事，也没有好好学习，内心不安。。今天忙完了。继续总结下《锋利的jQuery》第二章。 第二章主要是介绍了jQuery的选择器</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 19 Apr 2016 23:17:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 之前一直在看秒味课堂的视频，最开始看css2和html的话还挺好，各种课后作业可以做。后来看css3、html5、jq、anglarjs</description>
+    </item>
+    
+    <item>
+      <title>css选择器及选择器的优先级</title>
+      <link>http://ali1213.github.io/post/css%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7/</link>
+      <pubDate>Mon, 18 Apr 2016 16:14:28 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/css%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7/</guid>
+      <description>前言 自打我开了博客以来，这基本上就是我第一个考虑写的文章。 话说来长，去年10月28号左右，刚刚看完《Head First HTML与CSS(第2版》的我</description>
+    </item>
+    
+    <item>
+      <title>字符串和正则表达式-《understanding ECMAScipt6》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;p&gt;ES6增加了对字符串和正则表达式更好的支持
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

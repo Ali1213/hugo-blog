@@ -1,0 +1,765 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>锋利的jQuery-读书笔记3 - 欢迎来到Ali的秘密花园</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+  
+  <meta name="description" content="前言 前阵子在知乎上看到有一个问题是：“JQ有没有过时”，感觉最悲惨的事情莫过于，你还是刚刚开始熟练，别人却在讨论JQ的过时。随着ES6的诞生">
+  
+  <meta itemprop="name" content="锋利的jQuery-读书笔记3 - 欢迎来到Ali的秘密花园">
+  <meta itemprop="description" content="前言 前阵子在知乎上看到有一个问题是：“JQ有没有过时”，感觉最悲惨的事情莫过于，你还是刚刚开始熟练，别人却在讨论JQ的过时。随着ES6的诞生">
+  <meta itemprop="image" content="http://ali1213.github.io/img/author.jpg">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@coderzh" />
+  <meta name="twitter:title" content="锋利的jQuery-读书笔记3 - 欢迎来到Ali的秘密花园" />
+  
+  <meta name="twitter:description" content="Node.js和Go的使用者">
+  
+  <link rel="shortcut icon" href="http://ali1213.github.io/img/favicon.ico"/>
+  <link rel="apple-touch-icon" href="http://ali1213.github.io/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" href="http://ali1213.github.io/apple-touch-icon.png" />
+  <link rel="stylesheet" href="http://ali1213.github.io/highlight/styles/github.css">
+  <script src="http://ali1213.github.io/highlight/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="http://ali1213.github.io/font/hack/css/hack.min.css">
+  <link rel="stylesheet" href="http://ali1213.github.io/css/style.css">
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+</head>
+
+<body>
+  <header>
+    <div>
+  
+  <div id="imglogo">
+    <a href="http://ali1213.github.io/"><img src="http://ali1213.github.io/img/logo.svg" alt="欢迎来到Ali的秘密花园" title="欢迎来到Ali的秘密花园"/></a>
+  </div>
+  
+  <div id="textlogo">
+    <h1 class="site-name"><a href="http://ali1213.github.io/" title="欢迎来到Ali的秘密花园">欢迎来到Ali的秘密花园</a></h1>
+    <h2 class="blog-motto">既然来了，就别走了</h2>
+  </div>
+  <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
+  <nav class="animated">
+    <ul>
+      
+      <li><a href="/">首页</a></li>
+      
+      <li><a href="/about">关于</a></li>
+      
+      <li>
+        <form class="search" method="get" action="https://www.google.com/search">
+          <div>
+            <input type="text" id="search" name="q" placeholder="搜索">
+          </div>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  </header>
+  <div id="container">
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/" title="锋利的jQuery-读书笔记3" itemprop="url">锋利的jQuery-读书笔记3</a>
+  </h1>
+  <span id="busuanzi_container_page_pv">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+  </span>
+  <p class="article-author">By
+    
+      <a href="http://ali1213.github.io/post/" title="ali">ali</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-05-15 16:41:24 &#43;0800 CST" itemprop="datePublished">2016年05月15日</time>
+  </p>
+</header>
+
+	<div class="article-content">
+    
+		<div class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#前言">前言</a>
+<ul>
+<li><a href="#jquery中的dom操作">JQuery中的DOM操作</a>
+<ul>
+<li><a href="#概念">概念</a></li>
+<li><a href="#查找节点">查找节点</a></li>
+<li><a href="#创建节点">创建节点</a></li>
+<li><a href="#插入节点">插入节点</a></li>
+<li><a href="#删除节点">删除节点</a></li>
+<li><a href="#复制节点">复制节点</a></li>
+<li><a href="#替换节点">替换节点</a></li>
+<li><a href="#包裹节点">包裹节点</a></li>
+<li><a href="#属性操作">属性操作</a></li>
+<li><a href="#样式操作-个人理解就是class操作">样式操作（个人理解就是class操作）</a></li>
+<li><a href="#设置获取html-文本和值">设置获取HTML、文本和值</a></li>
+<li><a href="#遍历节点">遍历节点</a></li>
+<li><a href="#css-dom操作">CSS-DOM操作</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+    
+    
+
+<h2 id="前言">前言</h2>
+
+<p>前阵子在知乎上看到有一个问题是：“JQ有没有过时”，感觉最悲惨的事情莫过于，你还是刚刚开始熟练，别人却在讨论JQ的过时。随着ES6的诞生，还有AngularJS,ReactJS以及等等的出现，JQ的使用频率确实大不如前。但JQ的思想一直会存在，及时其被抹去了JQ这两个字的标识。
+作为一个新手，我还是老老实实看书比较好。。</p>
+
+<!-- more -->
+
+<h3 id="jquery中的dom操作">JQuery中的DOM操作</h3>
+
+<h4 id="概念">概念</h4>
+
+<p>首先，将我以前一直分不太清的DOM操作分了个类。
+- DOM Core
+    只要支持DOM语言设计的都可以支持使用它，用途不限于网页，可以处理任何一种使用标记语言写出来的文档，比如XML（然而我并不知道这个是什么鬼），for example： getElementById()
+- HTML-DOM
+    只能操作HTML，相比DOM而言一般简单一些，比如表单的一些操作：document.forms，比如src属性的获取：elements.src;
+- CSS-DOM
+    针对css操作，主要是通过style实现的，如element.style.color等等</p>
+
+<h4 id="查找节点">查找节点</h4>
+
+<ul>
+<li>元素节点
+主要通过$()实现，或者通过$().text(),获取文本节点，</li>
+<li>属性节点
+主要通过attr();</li>
+</ul>
+
+<h4 id="创建节点">创建节点</h4>
+
+<pre><code>一个$('要创建的内容') 搞定，元素，文本，属性，都直接写在里面，简单粗暴，一方面也遭人诟病。
+</code></pre>
+
+<h4 id="插入节点">插入节点</h4>
+
+<ul>
+<li>append()、appendTo()</li>
+<li>prepend()、prependTo()</li>
+<li>before()、 insertBefore()</li>
+<li>after()、insertAfter()
+太简单，不细说</li>
+</ul>
+
+<h4 id="删除节点">删除节点</h4>
+
+<ul>
+<li>remove()
+特点：返回值是删除的元素，可以传参进行筛选，绑定事件会永久删除</li>
+<li>detach()
+特点：与remove()区别，不会删除绑定事件</li>
+<li>empty()
+特点：删除后代节点，这个使用可会“断子绝孙”啊。。。</li>
+</ul>
+
+<h4 id="复制节点">复制节点</h4>
+
+<ul>
+<li>clone()
+特点：参数传入true，会复制绑定事件</li>
+</ul>
+
+<h4 id="替换节点">替换节点</h4>
+
+<ul>
+<li>replaceWith()</li>
+<li>replaceAll()</li>
+</ul>
+
+<p>一个主动一个被动，replaceWith()主动</p>
+
+<p>注：会抹去元素的绑定事件。</p>
+
+<h4 id="包裹节点">包裹节点</h4>
+
+<ul>
+<li>wrap()</li>
+<li>wrapAll()</li>
+<li>wrapInner()</li>
+</ul>
+
+<p>这个可不是一个主动一个被动，wrap()是单个打包
+如<code>$('strong').wrap('&lt;p&gt;&lt;/p&gt;')</code>是HTML中每一个<strong>外面都包裹一个<p>.
+wrapAll()就霸道多了，<code>$('strong').wrapAll('&lt;p&gt;&lt;/p&gt;')</code>不仅只用一个袋子<p>打包所有的<strong>，而且还把非<strong>的东西都丢在袋子外面（元素节点后面）。
+wrapInner()是内部打包,相当于给里面所有的元素多套了一层袋子。</p>
+
+<h4 id="属性操作">属性操作</h4>
+
+<ul>
+<li>获取设置
+
+<ul>
+<li>attr()</li>
+<li>html()</li>
+<li>text()</li>
+<li>height()、weight()</li>
+<li>val()、css()</li>
+</ul></li>
+<li>删除属性
+
+<ul>
+<li>removeAttr()</li>
+<li>removeProp() //这个不是很懂，标记下，下次用一下</li>
+</ul></li>
+</ul>
+
+<h4 id="样式操作-个人理解就是class操作">样式操作（个人理解就是class操作）</h4>
+
+<ul>
+<li>获取样式和设置样式
+
+<ul>
+<li>attr() //如 attr(&lsquo;class&rsquo;);</li>
+</ul></li>
+<li>追加样式
+
+<ul>
+<li>addClass()</li>
+</ul></li>
+<li>移除样式
+
+<ul>
+<li>removeClass()</li>
+</ul></li>
+<li>切换样式
+
+<ul>
+<li>toggleClass() //这个貌似挺好玩的，你有这个class就remove，没有就add</li>
+</ul></li>
+<li>判断
+
+<ul>
+<li>hasClass() //据说其实用的是is()判断的</li>
+</ul></li>
+</ul>
+
+<h4 id="设置获取html-文本和值">设置获取HTML、文本和值</h4>
+
+<p>对应就是html()/text()/val()
+说下val()的一个独特用法，可以选中seclect/checkbox/radio
+如select的ID为sel,则通过<code>$('#sel').val(['value值',…])</code>可以呈现选中某些选框的效果</p>
+
+<h4 id="遍历节点">遍历节点</h4>
+
+<ul>
+<li>children()
+匹配元素的子元素集合</li>
+<li>next()
+下一个同辈元素</li>
+<li>prev()
+上一个同辈元素</li>
+<li>siblings()
+带s的,匹配同辈的所有兄弟</li>
+<li>closest()
+单个元素，填入筛选条件，从自己开始找起，找祖先节点，</li>
+<li>present()
+找爸爸</li>
+<li>presents()
+找祖先，不同于closest()，是从父节点开始找，而且是个集合，可以填入筛选内容</li>
+<li>find()
+找孩子。内填筛选内容</li>
+<li>filter()
+在已经找到的集合内筛选，内天筛选内容</li>
+<li>nextAll()
+下面所有的同辈元素</li>
+<li>prevAll()
+上面所有的同辈元素</li>
+</ul>
+
+<h4 id="css-dom操作">CSS-DOM操作</h4>
+
+<ul>
+<li>css()
+特点：1.可以获取到外部设置的样式表的值
+2.如果填入的是数字，会自动转换为px
+3.加引号可写类似&rdquo;background-color&rdquo;，不过感觉还是驼峰风格更为统一</li>
+<li>opacity()
+没什么说的</li>
+<li>height()
+和css(&lsquo;height&rsquo;)的区别，css(&lsquo;height&rsquo;)获取的是样式表设置的值，所以可能会是auto或者加了px，而height()获取的是经过电脑计算的</li>
+<li>offset().left/offset().top
+获取元素相对于当前视窗的相对偏移</li>
+<li>position().left/position().top
+获取元素相对于上一个定位为relative或absolute的祖先节点的相对位置</li>
+<li>scrollTop()/scrollLeft()
+获取元素的滚动条距顶端的距离和距左侧的距离</li>
+</ul>
+
+<p>我是一个刚刚闯进前端的小学生，如果上文中有什么错误的地方，还请您指正，不甚感激！</p>
+
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+<div class="article-tags">
+  <span></span>
+  
+  <a href="http://ali1213.github.io/tags/javascript">javascript</a>
+  
+  <a href="http://ali1213.github.io/tags/%E9%94%8B%E5%88%A9%E7%9A%84jquery">锋利的jQuery</a>
+  
+</div>
+
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a class="article-category-link" href="http://ali1213.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0">读书笔记</a>
+  
+</div>
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/" data-title="锋利的jQuery-读书笔记3" data-tsina="1816308191" class="share clearfix">
+    </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+
+</div>
+
+    <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+  
+
+<div class="categorieslist">
+  <p class="asidetitle">分类</p>
+  <ul>
+    
+    <li><a href="http://ali1213.github.io/categories/shell" title="shell">shell<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e4%bb%a3%e7%a0%81" title="代码">代码<sup>6</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e5%b7%a5%e5%85%b7" title="工具">工具<sup>4</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e5%b7%a5%e5%85%b7%e4%bd%bf%e7%94%a8" title="工具使用">工具使用<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e6%80%bb%e7%bb%93" title="总结">总结<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e6%8a%80%e5%b7%a7" title="技巧">技巧<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e8%af%bb%e4%b9%a6%e7%ac%94%e8%ae%b0" title="读书笔记">读书笔记<sup>20</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e9%9a%8f%e7%ac%94" title="随笔">随笔<sup>1</sup></a></li>
+    
+  </ul>
+</div>
+
+
+
+  
+
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+      
+			<li><a href="http://ali1213.github.io/tags/2017%e5%b9%b4" title="2017年">2017年<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/css" title="css">css<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/es6" title="es6">es6<sup>13</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/git" title="git">git<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/hexo" title="hexo">hexo<sup>2</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/hugo" title="hugo">hugo<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/javascript" title="javascript">javascript<sup>16</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/javscript" title="javscript">javscript<sup>8</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/jquery" title="jquery">jquery<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/mongo" title="mongo">mongo<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/node.js" title="node.js">node.js<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/tesseract" title="tesseract">tesseract<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/understanding-ecmascipt6" title="understanding-ecmascipt6">understanding-ecmascipt6<sup>9</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e4%b9%a6%e7%b1%8d" title="书籍">书籍<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e4%bd%a0%e4%b8%8d%e7%9f%a5%e9%81%93%e7%9a%84javascript" title="你不知道的javascript">你不知道的javascript<sup>5</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e5%8d%9a%e5%ae%a2" title="博客">博客<sup>3</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e6%8a%80%e5%b7%a7" title="技巧">技巧<sup>3</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e6%ad%a3%e5%88%99" title="正则">正则<sup>3</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e9%94%8b%e5%88%a9%e7%9a%84jquery" title="锋利的jquery">锋利的jquery<sup>4</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e9%a1%b9%e7%9b%ae" title="项目">项目<sup>1</sup></a></li>
+      
+		</ul>
+</div>
+
+
+
+  
+  <div class="archiveslist">
+    <p class="asidetitle">归档</p>
+    <ul class="archive-list">
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2018-04">2018年04月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2018-02">2018年02月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-10">2017年10月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-09">2017年09月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-07">2017年07月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-06">2017年06月</a><span class="archive-list-count">2</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-05">2017年05月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-04">2017年04月</a><span class="archive-list-count">4</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-03">2017年03月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-02">2017年02月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-12">2016年12月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-11">2016年11月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-10">2016年10月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-09">2016年09月</a><span class="archive-list-count">2</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-05">2016年05月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-04">2016年04月</a><span class="archive-list-count">5</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#0001-01">0001年01月</a><span class="archive-list-count">1</span>
+      </li>
+      
+    </ul>
+
+  </div>
+
+
+  
+
+<div class="tagcloudlist">
+  <p class="asidetitle">标签云</p>
+  <div class="tagcloudlist clearfix">
+    
+    <a href="http://ali1213.github.io/tags/2017%e5%b9%b4" style="font-size: 12px;">2017年</a>
+    
+    <a href="http://ali1213.github.io/tags/css" style="font-size: 12px;">css</a>
+    
+    <a href="http://ali1213.github.io/tags/es6" style="font-size: 12px;">es6</a>
+    
+    <a href="http://ali1213.github.io/tags/git" style="font-size: 12px;">git</a>
+    
+    <a href="http://ali1213.github.io/tags/hexo" style="font-size: 12px;">hexo</a>
+    
+    <a href="http://ali1213.github.io/tags/hugo" style="font-size: 12px;">hugo</a>
+    
+    <a href="http://ali1213.github.io/tags/javascript" style="font-size: 12px;">javascript</a>
+    
+    <a href="http://ali1213.github.io/tags/javscript" style="font-size: 12px;">javscript</a>
+    
+    <a href="http://ali1213.github.io/tags/jquery" style="font-size: 12px;">jquery</a>
+    
+    <a href="http://ali1213.github.io/tags/mongo" style="font-size: 12px;">mongo</a>
+    
+    <a href="http://ali1213.github.io/tags/node.js" style="font-size: 12px;">node.js</a>
+    
+    <a href="http://ali1213.github.io/tags/tesseract" style="font-size: 12px;">tesseract</a>
+    
+    <a href="http://ali1213.github.io/tags/understanding-ecmascipt6" style="font-size: 12px;">understanding-ecmascipt6</a>
+    
+    <a href="http://ali1213.github.io/tags/%e4%b9%a6%e7%b1%8d" style="font-size: 12px;">书籍</a>
+    
+    <a href="http://ali1213.github.io/tags/%e4%bd%a0%e4%b8%8d%e7%9f%a5%e9%81%93%e7%9a%84javascript" style="font-size: 12px;">你不知道的javascript</a>
+    
+    <a href="http://ali1213.github.io/tags/%e5%8d%9a%e5%ae%a2" style="font-size: 12px;">博客</a>
+    
+    <a href="http://ali1213.github.io/tags/%e6%8a%80%e5%b7%a7" style="font-size: 12px;">技巧</a>
+    
+    <a href="http://ali1213.github.io/tags/%e6%ad%a3%e5%88%99" style="font-size: 12px;">正则</a>
+    
+    <a href="http://ali1213.github.io/tags/%e9%94%8b%e5%88%a9%e7%9a%84jquery" style="font-size: 12px;">锋利的jquery</a>
+    
+    <a href="http://ali1213.github.io/tags/%e9%a1%b9%e7%9b%ae" style="font-size: 12px;">项目</a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</aside>
+
+<div>
+    <span id="busuanzi_container_site_pv">
+        总浏览数:<span id="busuanzi_value_site_pv"></span>次
+    </span><br />
+    <span id="busuanzi_container_site_uv">
+      总访客数:<span id="busuanzi_value_site_uv"></span>次
+    </span>
+  </div>
+</div>
+
+  </div>
+  <footer><div id="footer" >
+  
+  <div class="line">
+    <span></span>
+    <div style='background:no-repeat url("http://ali1213.github.io/img/author.png") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
+  </div>
+  
+  
+  <section class="info">
+    <p>阿力把勤奋的小人捡起来 <br/> Be Alive Keep Coding</p>
+  </section>
+  
+  <div class="social-font clearfix">
+    
+    <a href="http://weibo.com/coderzh" target="_blank" title="weibo"></a>
+    
+    
+    <a href="https://twitter.com/coderzh" target="_blank" title="twitter"></a>
+    
+    
+    <a href="https://github.com/ali1213" target="_blank" title="github"></a>
+    
+    
+    <a href="https://www.facebook.com/coderzh" target="_blank" title="facebook"></a>
+    
+    
+    <a href="https://www.linkedin.com/coderzh" target="_blank" title="linkedin"></a>
+    
+  </div>
+  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2018
+    
+    <a href="http://ali1213.github.io/" title="欢迎来到Ali的秘密花园">欢迎来到Ali的秘密花园</a>
+    
+  </p>
+</div>
+</footer>
+  <script src="http://ali1213.github.io/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+done = false;
+$(document).ready(function(){
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  $('form.search').on('submit', function (event) {
+    if (false === done) {
+      event.preventDefault();
+      var orgVal = $(this).find('#search').val();
+      $(this).find('#search').val('site:http:\/\/ali1213.github.io\/ ' + orgVal);
+      done = true;
+      $(this).submit();
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});
+</script>
+
+
+<link rel="stylesheet" href="http://ali1213.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://ali1213.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
+
+
+
+
+</body>
+</html>

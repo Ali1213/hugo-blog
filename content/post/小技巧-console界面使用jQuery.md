@@ -1,8 +1,8 @@
 +++
 date = "2016-11-29T20:46:55+08:00"
 title = "小技巧-console界面使用jQuery"
-categories = ["javascript"]
-tags = ["jquery","技巧"]
+categories = ["代码"]
+tags = ["jquery","技巧","javascript"]
 toc = true
 author = "ali"
 author_homepage =  "http://ali1213.github.io/post/"

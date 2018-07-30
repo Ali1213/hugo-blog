@@ -6,10 +6,40 @@
     <description>Recent content in 技巧 on 欢迎来到Ali的秘密花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 29 Nov 2016 20:46:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Feb 2017 18:03:49 +0800</lastBuildDate>
     
 	<atom:link href="http://ali1213.github.io/tags/%E6%8A%80%E5%B7%A7/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>数字转字母</title>
+      <link>http://ali1213.github.io/post/%E6%95%B0%E5%AD%97%E8%BD%AC%E5%AD%97%E6%AF%8D/</link>
+      <pubDate>Wed, 08 Feb 2017 18:03:49 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%95%B0%E5%AD%97%E8%BD%AC%E5%AD%97%E6%AF%8D/</guid>
+      <description>前言 这两天有个事情是要生成限定区域，限定内容的excel。 有点恶心的说。今天花了大半天时间写了个初稿。 其中我要求输入函数的参数包括行和列的数</description>
+    </item>
+    
+    <item>
+      <title>十行代码教你用node.js读取docx中的文本</title>
+      <link>http://ali1213.github.io/post/%E5%8D%81%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%95%99%E4%BD%A0%E7%94%A8node-js%E8%AF%BB%E5%8F%96docx%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC/</link>
+      <pubDate>Fri, 16 Dec 2016 19:30:15 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%8D%81%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%95%99%E4%BD%A0%E7%94%A8node-js%E8%AF%BB%E5%8F%96docx%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;最近有一个case。需要去解析word文档。有两个需求，一个是将word文档转成PDF，一个是将word文档中的内容按照一定的规范读取到数据库中，去npm仓库找了大概有十几个包，发现主要是通过以下的方式来转换代码。
++ 通过调用系统底层程序（比如说office）的API来转换；
++ 通过模板，替换数据来实现生成PDF；
++ 通过有些免费将word转成PDF的网站来实现将word转成PDF，比如docx-to-pdf；&lt;/p&gt;
+
+&lt;p&gt;后来退而求其次，想通过先将docx转成文字，发现了个textract的包。
+当然也有缺点，不支持docx中的标题号，不支持图片等文件。&lt;/p&gt;
+
+&lt;p&gt;不怕死的我决定自己干这件事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>小技巧-console界面使用jQuery</title>

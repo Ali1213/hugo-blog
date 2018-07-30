@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on 欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/tags/javascript/</link>
+    <description>Recent content in Javascript on 欢迎来到Ali的秘密花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 18 Oct 2017 00:53:13 +0800</lastBuildDate>
+    
+	<atom:link href="http://ali1213.github.io/tags/javascript/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>《你不知道的JavaScript-中》读书笔记</title>
+      <link>http://ali1213.github.io/post/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 18 Oct 2017 00:53:13 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这本书的中册还是相当值得推荐的。
+就算对在异步流程中已经踩过很多坑的我来说，也还是有些可以值得学习的东西。&lt;/p&gt;
+
+&lt;p&gt;只把自己记下来的东西写一下，推荐大家还是可以看书。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>对象、类、原型和委托《你不知道的JavaScript-上》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%A7%94%E6%89%98%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Tue, 10 Oct 2017 21:33:28 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%A7%94%E6%89%98%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这本书类和行为委托的部分忍不住看了第二遍。觉得观点很新颖，很有意思。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>作用域和闭包《你不知道的JavaScript-上》读书笔记1</title>
+      <link>http://ali1213.github.io/post/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Sun, 08 Oct 2017 00:28:58 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;5月份的时候立了一个flag，然后就被打脸。
+辞职，失恋。
+新的工作，频繁的加班。
+走三步退两步的减肥计划。
+堕落……&lt;/p&gt;
+
+&lt;p&gt;今天看了电影《被嫌弃的松子的一生》
+隐隐的害怕。&lt;/p&gt;
+
+&lt;p&gt;往前走吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Promise-《understanding-ECMAScipt6》读书笔记11</title>
+      <link>http://ali1213.github.io/post/promise-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B011/</link>
+      <pubDate>Wed, 05 Jul 2017 00:09:59 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/promise-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B011/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;最近实在是发生太多事情。
+昨天差点露宿接头，今天终于把房子搞定了。
+接下来，又可以专心的写代码了。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iterators &amp; generators-《understanding ECMAScipt6》读书笔记8</title>
+      <link>http://ali1213.github.io/post/iterators-generators-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B08/</link>
+      <pubDate>Wed, 31 May 2017 13:04:41 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/iterators-generators-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B08/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;果然不能立flag，上次文章都写完了，可是hexo出了点小问题，再加上正好回家，所以延后了几天。&lt;/p&gt;
+
+&lt;p&gt;发现之前一直提到 迭代器 和 生成器的字眼。其实一直没有讲这方面的东东。iterators 在es6中应用的还是挺广的，set，map，array，string都有这样的入口，generators是es7中async的基础。个人认为还是挺重要的。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sets和Maps《understanding ECMAScipt6》读书笔记7</title>
+      <link>http://ali1213.github.io/post/sets%E5%92%8Cmapsunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B07/</link>
+      <pubDate>Fri, 19 May 2017 14:16:26 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/sets%E5%92%8Cmapsunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B07/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;让我们来愉快的立一个Flag:
+每周写一篇文章
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Symbol《understanding ECMAScipt6》读书笔记6</title>
+      <link>http://ali1213.github.io/post/symbolunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06/</link>
+      <pubDate>Thu, 27 Apr 2017 18:08:30 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/symbolunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06/</guid>
+      <description>&lt;h2 id=&#34;什么是symbol&#34;&gt;什么是Symbol&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ES6 新增的类型&lt;/li&gt;
+&lt;li&gt;原始类型&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>对象的功能扩展-《understanding ECMAScipt6》读书笔记4</title>
+      <link>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <pubDate>Tue, 25 Apr 2017 18:33:46 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <description>&lt;h2 id=&#34;对象分类&#34;&gt;对象分类&lt;/h2&gt;
+
+&lt;p&gt;ES6将对象分为以下几类:
++ 普通对象
++ 外来对象
++ 标准对象
++ 内建对象&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数字转字母</title>
+      <link>http://ali1213.github.io/post/%E6%95%B0%E5%AD%97%E8%BD%AC%E5%AD%97%E6%AF%8D/</link>
+      <pubDate>Wed, 08 Feb 2017 18:03:49 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%95%B0%E5%AD%97%E8%BD%AC%E5%AD%97%E6%AF%8D/</guid>
+      <description>前言 这两天有个事情是要生成限定区域，限定内容的excel。 有点恶心的说。今天花了大半天时间写了个初稿。 其中我要求输入函数的参数包括行和列的数</description>
+    </item>
+    
+    <item>
+      <title>十行代码教你用node.js读取docx中的文本</title>
+      <link>http://ali1213.github.io/post/%E5%8D%81%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%95%99%E4%BD%A0%E7%94%A8node-js%E8%AF%BB%E5%8F%96docx%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC/</link>
+      <pubDate>Fri, 16 Dec 2016 19:30:15 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%8D%81%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%95%99%E4%BD%A0%E7%94%A8node-js%E8%AF%BB%E5%8F%96docx%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;最近有一个case。需要去解析word文档。有两个需求，一个是将word文档转成PDF，一个是将word文档中的内容按照一定的规范读取到数据库中，去npm仓库找了大概有十几个包，发现主要是通过以下的方式来转换代码。
++ 通过调用系统底层程序（比如说office）的API来转换；
++ 通过模板，替换数据来实现生成PDF；
++ 通过有些免费将word转成PDF的网站来实现将word转成PDF，比如docx-to-pdf；&lt;/p&gt;
+
+&lt;p&gt;后来退而求其次，想通过先将docx转成文字，发现了个textract的包。
+当然也有缺点，不支持docx中的标题号，不支持图片等文件。&lt;/p&gt;
+
+&lt;p&gt;不怕死的我决定自己干这件事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小技巧-console界面使用jQuery</title>
+      <link>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</link>
+      <pubDate>Tue, 29 Nov 2016 20:46:55 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;作为一个前端工程师，偶尔还是会经常在google浏览器的console写写代码，记得第一次在console写代码，真是觉得超酷！
+最开始在控制台，我就很自然的用到jQuery。
+直到有一天，我输入&lt;code&gt;$(&amp;quot;&amp;quot;)&lt;/code&gt;，浏览器给我报了个错！
+what the fuck！！！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记4</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <pubDate>Mon, 16 May 2016 21:18:23 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <description>前言 昨天晚上看完了JQ第四章, 话说其实每天要用电脑打字感觉挺累的。上班敲了一天的代码，下班感觉什么都不想动。 jQuery中的事件和动画 事件 这</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记3</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
+      <pubDate>Sun, 15 May 2016 16:41:24 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
+      <description>前言 前阵子在知乎上看到有一个问题是：“JQ有没有过时”，感觉最悲惨的事情莫过于，你还是刚刚开始熟练，别人却在讨论JQ的过时。随着ES6的诞生</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Sun, 01 May 2016 19:03:25 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>前言 好几天因为各种事，也没有好好学习，内心不安。。今天忙完了。继续总结下《锋利的jQuery》第二章。 第二章主要是介绍了jQuery的选择器</description>
+    </item>
+    
+    <item>
+      <title>js有关正则的几个题目</title>
+      <link>http://ali1213.github.io/post/js%E6%9C%89%E5%85%B3%E6%AD%A3%E5%88%99%E7%9A%84%E5%87%A0%E4%B8%AA%E9%A2%98%E7%9B%AE/</link>
+      <pubDate>Wed, 20 Apr 2016 14:14:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/js%E6%9C%89%E5%85%B3%E6%AD%A3%E5%88%99%E7%9A%84%E5%87%A0%E4%B8%AA%E9%A2%98%E7%9B%AE/</guid>
+      <description>题目1 写一个字符串转成驼峰的方法 如：&amp;rdquo;border-bottom-color&amp;rdquo;-&amp;gt;&amp;ldquo;borderB</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 19 Apr 2016 23:17:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 之前一直在看秒味课堂的视频，最开始看css2和html的话还挺好，各种课后作业可以做。后来看css3、html5、jq、anglarjs</description>
+    </item>
+    
+  </channel>
+</rss>

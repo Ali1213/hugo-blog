@@ -1,0 +1,858 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>css选择器及选择器的优先级 - 欢迎来到Ali的秘密花园</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+  
+  <meta name="description" content="前言 自打我开了博客以来，这基本上就是我第一个考虑写的文章。 话说来长，去年10月28号左右，刚刚看完《Head First HTML与CSS(第2版》的我">
+  
+  <meta itemprop="name" content="css选择器及选择器的优先级 - 欢迎来到Ali的秘密花园">
+  <meta itemprop="description" content="前言 自打我开了博客以来，这基本上就是我第一个考虑写的文章。 话说来长，去年10月28号左右，刚刚看完《Head First HTML与CSS(第2版》的我">
+  <meta itemprop="image" content="http://ali1213.github.io/img/author.jpg">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@coderzh" />
+  <meta name="twitter:title" content="css选择器及选择器的优先级 - 欢迎来到Ali的秘密花园" />
+  
+  <meta name="twitter:description" content="Node.js和Go的使用者">
+  
+  <link rel="shortcut icon" href="http://ali1213.github.io/img/favicon.ico"/>
+  <link rel="apple-touch-icon" href="http://ali1213.github.io/apple-touch-icon.png" />
+  <link rel="apple-touch-icon-precomposed" href="http://ali1213.github.io/apple-touch-icon.png" />
+  <link rel="stylesheet" href="http://ali1213.github.io/highlight/styles/github.css">
+  <script src="http://ali1213.github.io/highlight/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="http://ali1213.github.io/font/hack/css/hack.min.css">
+  <link rel="stylesheet" href="http://ali1213.github.io/css/style.css">
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+</head>
+
+<body>
+  <header>
+    <div>
+  
+  <div id="imglogo">
+    <a href="http://ali1213.github.io/"><img src="http://ali1213.github.io/img/logo.svg" alt="欢迎来到Ali的秘密花园" title="欢迎来到Ali的秘密花园"/></a>
+  </div>
+  
+  <div id="textlogo">
+    <h1 class="site-name"><a href="http://ali1213.github.io/" title="欢迎来到Ali的秘密花园">欢迎来到Ali的秘密花园</a></h1>
+    <h2 class="blog-motto">既然来了，就别走了</h2>
+  </div>
+  <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
+  <nav class="animated">
+    <ul>
+      
+      <li><a href="/">首页</a></li>
+      
+      <li><a href="/about">关于</a></li>
+      
+      <li>
+        <form class="search" method="get" action="https://www.google.com/search">
+          <div>
+            <input type="text" id="search" name="q" placeholder="搜索">
+          </div>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+  </header>
+  <div id="container">
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="http://ali1213.github.io/post/css%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7/" title="css选择器及选择器的优先级" itemprop="url">css选择器及选择器的优先级</a>
+  </h1>
+  <span id="busuanzi_container_page_pv">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+  </span>
+  <p class="article-author">By
+    
+      <a href="http://ali1213.github.io/post/" title="ali">ali</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2016-04-18 16:14:28 &#43;0800 CST" itemprop="datePublished">2016年04月18日</time>
+  </p>
+</header>
+
+	<div class="article-content">
+    
+		<div class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#选择器的优先级">选择器的优先级</a></li>
+<li><a href="#选择器">选择器</a>
+<ul>
+<li><a href="#id选择器">ID选择器</a></li>
+<li><a href="#类选择器">类选择器</a></li>
+<li><a href="#属性选择器">属性选择器</a></li>
+<li><a href="#伪类选择器">伪类选择器</a>
+<ul>
+<li><a href="#结构性伪类选择器">结构性伪类选择器</a></li>
+<li><a href="#其他伪类选择器">其他伪类选择器</a></li>
+<li><a href="#通用元素选择器和伪类not选择器-最弱的选择器">通用元素选择器和伪类not选择器&mdash;-&ldquo;最弱的选择器&rdquo;</a></li>
+<li><a href="#组合类选择器">组合类选择器</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+    
+    
+
+<h2 id="前言">前言</h2>
+
+<p>自打我开了博客以来，这基本上就是我第一个考虑写的文章。
+话说来长，去年10月28号左右，刚刚看完《Head First HTML与CSS(第2版》的我，感觉自己飘了，毕竟600多页啊，一定要找一份工作压压惊。就请假去了一家公司面试，去面试前，我反复跟公司人事强调，我说我只有两个月的学习，人事说，没事，你过来。（其实我只是学了1个多星期的c语言，然后确定了前端方向，每天工作之余学习3、4个小时的xhtml和css2）。
+所以一过去就笔试，摊开卷子，十道题目，8道都是js相关，我摸着那剩下两道想着，一定要做出来一道，不然怎么能连滚带爬，连哭带啼的求着面试官收下我呢。
+其中有一道就是考属性选择器的优先级的。</p>
+
+<!-- more -->
+
+<h2 id="选择器的优先级">选择器的优先级</h2>
+
+<p>在优先级面有一个最顶级的存在，虽然基本不要用它，他就是<code>! important</code></p>
+
+<pre><code class="language-css">.head{
+	background:red !important;
+	color:green;
+}
+</code></pre>
+
+<ol>
+<li>按照选择器类型分</li>
+</ol>
+
+<table>
+<thead>
+<tr>
+<th>选择器类型</th>
+<th align="center">权重</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>行内样式</td>
+<td align="center">1000</td>
+</tr>
+
+<tr>
+<td>ID选择器</td>
+<td align="center">100</td>
+</tr>
+
+<tr>
+<td>类选择器、属性选择器、伪类选择器</td>
+<td align="center">10</td>
+</tr>
+
+<tr>
+<td>元素（类型）选择器、伪元素（类型）选择器</td>
+<td align="center">1</td>
+</tr>
+
+<tr>
+<td>通用元素选择器、伪元素:not选择器</td>
+<td align="center">0</td>
+</tr>
+</tbody>
+</table>
+
+<ol>
+<li>按照来源分</li>
+</ol>
+
+<p>行内样式&gt;页面样式&gt;外部样式&gt;浏览器自定义样式</p>
+
+<ol>
+<li>计算优先级的流程</li>
+</ol>
+
+<p>a.根据选择器的类型计算权重，根据权重大小，大的优先级高；
+b.如权重相同，则根据选择器的来源比较；
+c.如果前面都想同，则根据其在文中的先后顺序，后面的优先级高；</p>
+
+<h2 id="选择器">选择器</h2>
+
+<p>为了有一个顺序，从总体上我按照优先级从高到低排序着说;</p>
+
+<h3 id="id选择器">ID选择器</h3>
+
+<pre><code class="language-css">#head{
+	background:red;
+}
+</code></pre>
+
+<h3 id="类选择器">类选择器</h3>
+
+<pre><code class="language-css">.left{
+	float:left;
+}
+</code></pre>
+
+<h3 id="属性选择器">属性选择器</h3>
+
+<ol>
+<li>基础选择器<code>Element[attr]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data]{
+	color:red;
+}
+
+&lt;p data = &quot;transform&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>指定了属性名为data的p元素。</p>
+
+<ol>
+<li>基础选择器<code>Element[attr = &quot;value&quot;]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data = &quot;transform&quot;]{
+	color:red;
+}
+
+&lt;p data = &quot;transform&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>指定了属性名为data，且属性值为transform的p元素。</p>
+
+<ol>
+<li>基础选择器<code>Element[attr ~= &quot;value&quot;]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data ~= &quot;transform&quot;]{
+	color:red;
+}
+
+&lt;p data = &quot;transform big&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>指定了属性名为data，并且属性值为空格隔开的多个词，其中一个词为指定属性值的p元素。</p>
+
+<ol>
+<li>基础选择器<code>Element[attr ^= &quot;val&quot;]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data ^= &quot;trans&quot;]{
+	color:red;
+}
+
+&lt;p data = &quot;transform&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>这个让我想到了正则，正则中^如果不放在[]内则代表开头的意思，该选择器表示，指定属性名为data，且属性值的开头为trans的p元素</p>
+
+<ol>
+<li>基础选择器<code>Element[attr $= &quot;lue&quot;]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data $= &quot;form&quot;]{
+	color:red;
+}
+
+&lt;p data = &quot;transform&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>这个$符号在正则中表示结尾的意思，同理，该段代码表示，指定属性名为data，且属性值是以form结尾的p元素。</p>
+
+<ol>
+<li>基础选择器<code>Element[attr *= &quot;alu&quot;]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data *= &quot;for&quot;]{
+	color:red;
+}
+
+&lt;p data = &quot;transform&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>该段代码表示，指定属性名为data，且属性值包含for的p元素。</p>
+
+<ol>
+<li>基础选择器<code>Element[attr |= &quot;value&quot;]</code></li>
+</ol>
+
+<pre><code class="language-css">p[data |= &quot;transform&quot;]{
+	color:red;
+}
+
+&lt;p data = &quot;transform&quot;&gt;&lt;/p&gt;
+&lt;p data = &quot;transform-big&quot;&gt;&lt;/p&gt;
+</code></pre>
+
+<p>该段代码表示，指定属性名为data，属性值为&rdquo;transform&rdquo;或者&rdquo;transform-&ldquo;开头的p元素；</p>
+
+<p><font color="red">注：上述7种选择器在IE7及IE7以上均支持</font></p>
+
+<h3 id="伪类选择器">伪类选择器</h3>
+
+<h4 id="结构性伪类选择器">结构性伪类选择器</h4>
+
+<ol>
+<li><code>p:nth-child(n)</code>表示p如果是p父元素的第n个元素子节点，匹配成功；
+<font color="red">
+注：a.结构性伪类选择器中的n，此处的n可以是自然数，但与js从0开始计数不同的是，此处的n是从1开始计数；
+b.此处还可以写自然数与n的计算关系式，如2n（表示偶数），2n-1（表示奇数），3n等等；
+c.此处可以是add（表示奇数行）或even（表示偶数行）
+</font></li>
+<li><code>p:nth-last-child(n)</code>表示p如果是p父元素的倒数第n个元素子节点，匹配成功；</li>
+<li><code>p:nth-of-type(n)</code>表示p如果是p父元素的第n个p类型的元素子节点，匹配成功；</li>
+<li><code>p:nth-last-of-type(n)</code>倒数版本的<code>p:nth-of-type(n)</code>；</li>
+<li><code>p:first-child</code>等同于<code>p:nth-child(1)</code></li>
+<li><code>p:last-child</code>等同于<code>p:nth-last-child(1)</code></li>
+<li><code>p:first-of-type</code>等同于<code>p:nth-of-type(n)</code></li>
+<li><code>p:last-of-type</code>等同于<code>p:nth-last-of-type(n)</code></li>
+<li><code>p:only-child</code>表示p如果是其父元素下唯一一个子元素</li>
+<li><code>p:empty</code>表示p元素下（不再是p的父元素）不包含任何子元素，匹配成功。</li>
+<li><code>html:root</code>当元素作为文档的根元素时，匹配成功。其实这样的元素再html中只有一个，就是HTMLHtmlElement元素。查了下百度，该选择器可以用于IE中的hack；</li>
+</ol>
+
+<p><font color="red">
+注：基本上所有的伪类选择器（包括下文的）基本上都是css3新增的，可以视为在IE8及IE8以下均不支持。
+ps：不知道电脑端的IE8淘汰要多久~~~~
+</font></p>
+
+<h4 id="其他伪类选择器">其他伪类选择器</h4>
+
+<ol>
+<li><code>E:link</code>当元素E（a标签）未被点击时，匹配成功。</li>
+<li><code>E:visited</code>当元素E（a标签）点击过时，匹配成功。</li>
+<li><code>E:hover</code>必须在E:link、E:visited后声明才有效。当元素E（IE5.5~7时为a标签，IE8+可为其他标签）正被鼠标悬停时，匹配成功。</li>
+<li><code>E:active</code>必须在E:hover后声明才有效。当鼠标已经在元素E（a标签）按下，但未释放左键时，匹配成功。</li>
+<li><code>E:focus</code>当元素E（元素E必须为可以接收键盘或用户输入的元素）获得焦点时，匹配成功。（IE8的标准模式开始支持）</li>
+<li><code>E:lang(c)</code>当元素的lang属性值等于c时，则匹配成功。</li>
+<li><code>E:enabled</code>元素E（E为表单元素）可用时，匹配成功。</li>
+<li><code>E:disabled</code>元素E（E为表单元素）不可用时，匹配成功。</li>
+<li><code>E:checked</code>元素E（E为input[type=radio]或input[type=checkbox]元素）被钩选时，匹配成功。</li>
+</ol>
+
+<p>####伪元素选择器
+1. <code>E:before</code>（新写法<code>E::before</code>）用于向元素E前添加内容（IE8的标准模式开始支持）
+2. <code>E:after</code>（新写法<code>E::after</code>）用于向元素E后添加内容（IE8的标准模式开始支持
+3. <code>E:first-line</code>（新写法<code>E::first-line</code>）仅仅当元素E为块级元素时有效。用于向元素E中的文字的首行添加特殊样式。
+4. <code>E:first-letter</code>（新写法<code>E::first-letter</code>）用于向元素E的首个字母添加特殊样式
+5. <code>E:input-placeholder</code>用于向元素E的placeholder添加特殊样式。由于未成为W3C规范，因此需要加浏览器厂商前缀</p>
+
+<h4 id="通用元素选择器和伪类not选择器-最弱的选择器">通用元素选择器和伪类not选择器&mdash;-&ldquo;最弱的选择器&rdquo;</h4>
+
+<ol>
+<li><p>通用元素选择器</p>
+
+<pre><code class="language-css">*{
+margin:0;padding:0;
+}
+</code></pre>
+
+<p>话说最开始写代码时最喜欢的。</p></li>
+
+<li><p>伪类not选择器
+<code>E:not</code>当元素E不符合其他类型的选择器条件时，匹配成功。</p></li>
+</ol>
+
+<h4 id="组合类选择器">组合类选择器</h4>
+
+<ol>
+<li><p>群组选择器</p>
+
+<pre><code class="language-css">div, body{
+width: 1200px;
+}
+</code></pre></li>
+
+<li><p>后代选择器</p>
+
+<pre><code class="language-css">body div{
+width: 1200px;
+}
+</code></pre></li>
+
+<li><p>子元素选择器</p>
+
+<pre><code class="language-css">body &gt; div{
+color: #111;
+}
+</code></pre></li>
+
+<li><p>相邻兄弟元素选择器</p>
+
+<pre><code class="language-css">h1 + p {
+	margin-top:50px;
+}
+</code></pre>
+
+<p>这个选择器读作：“选择紧接在 h1 元素后出现的段落，h1 和 p 元素拥有共同的父元素”。</p></li>
+</ol>
+
+<p>我还是一个前端的小学生，如果上述文章中有什么错误的话，还希望您能够指正！谢谢！</p>
+
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+<div class="article-tags">
+  <span></span>
+  
+  <a href="http://ali1213.github.io/tags/css">css</a>
+  
+</div>
+
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a class="article-category-link" href="http://ali1213.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0">读书笔记</a>
+  
+</div>
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="http://ali1213.github.io/post/css%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7/" data-title="css选择器及选择器的优先级" data-tsina="1816308191" class="share clearfix">
+    </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+
+</div>
+
+    <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+  
+
+<div class="categorieslist">
+  <p class="asidetitle">分类</p>
+  <ul>
+    
+    <li><a href="http://ali1213.github.io/categories/shell" title="shell">shell<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e4%bb%a3%e7%a0%81" title="代码">代码<sup>6</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e5%b7%a5%e5%85%b7" title="工具">工具<sup>4</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e5%b7%a5%e5%85%b7%e4%bd%bf%e7%94%a8" title="工具使用">工具使用<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e6%80%bb%e7%bb%93" title="总结">总结<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e6%8a%80%e5%b7%a7" title="技巧">技巧<sup>1</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e8%af%bb%e4%b9%a6%e7%ac%94%e8%ae%b0" title="读书笔记">读书笔记<sup>20</sup></a></li>
+    
+    <li><a href="http://ali1213.github.io/categories/%e9%9a%8f%e7%ac%94" title="随笔">随笔<sup>1</sup></a></li>
+    
+  </ul>
+</div>
+
+
+
+  
+
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+      
+			<li><a href="http://ali1213.github.io/tags/2017%e5%b9%b4" title="2017年">2017年<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/css" title="css">css<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/es6" title="es6">es6<sup>13</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/git" title="git">git<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/hexo" title="hexo">hexo<sup>2</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/hugo" title="hugo">hugo<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/javascript" title="javascript">javascript<sup>16</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/javscript" title="javscript">javscript<sup>8</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/jquery" title="jquery">jquery<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/mongo" title="mongo">mongo<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/node.js" title="node.js">node.js<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/tesseract" title="tesseract">tesseract<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/understanding-ecmascipt6" title="understanding-ecmascipt6">understanding-ecmascipt6<sup>9</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e4%b9%a6%e7%b1%8d" title="书籍">书籍<sup>1</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e4%bd%a0%e4%b8%8d%e7%9f%a5%e9%81%93%e7%9a%84javascript" title="你不知道的javascript">你不知道的javascript<sup>5</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e5%8d%9a%e5%ae%a2" title="博客">博客<sup>3</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e6%8a%80%e5%b7%a7" title="技巧">技巧<sup>3</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e6%ad%a3%e5%88%99" title="正则">正则<sup>3</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e9%94%8b%e5%88%a9%e7%9a%84jquery" title="锋利的jquery">锋利的jquery<sup>4</sup></a></li>
+      
+			<li><a href="http://ali1213.github.io/tags/%e9%a1%b9%e7%9b%ae" title="项目">项目<sup>1</sup></a></li>
+      
+		</ul>
+</div>
+
+
+
+  
+  <div class="archiveslist">
+    <p class="asidetitle">归档</p>
+    <ul class="archive-list">
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2018-04">2018年04月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2018-02">2018年02月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-10">2017年10月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-09">2017年09月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-07">2017年07月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-06">2017年06月</a><span class="archive-list-count">2</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-05">2017年05月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-04">2017年04月</a><span class="archive-list-count">4</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-03">2017年03月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2017-02">2017年02月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-12">2016年12月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-11">2016年11月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-10">2016年10月</a><span class="archive-list-count">1</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-09">2016年09月</a><span class="archive-list-count">2</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-05">2016年05月</a><span class="archive-list-count">3</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#2016-04">2016年04月</a><span class="archive-list-count">5</span>
+      </li>
+      
+      
+      <li class="archive-list-item">
+        <a class="archive-list-link" href="http://ali1213.github.io/post/#0001-01">0001年01月</a><span class="archive-list-count">1</span>
+      </li>
+      
+    </ul>
+
+  </div>
+
+
+  
+
+<div class="tagcloudlist">
+  <p class="asidetitle">标签云</p>
+  <div class="tagcloudlist clearfix">
+    
+    <a href="http://ali1213.github.io/tags/2017%e5%b9%b4" style="font-size: 12px;">2017年</a>
+    
+    <a href="http://ali1213.github.io/tags/css" style="font-size: 12px;">css</a>
+    
+    <a href="http://ali1213.github.io/tags/es6" style="font-size: 12px;">es6</a>
+    
+    <a href="http://ali1213.github.io/tags/git" style="font-size: 12px;">git</a>
+    
+    <a href="http://ali1213.github.io/tags/hexo" style="font-size: 12px;">hexo</a>
+    
+    <a href="http://ali1213.github.io/tags/hugo" style="font-size: 12px;">hugo</a>
+    
+    <a href="http://ali1213.github.io/tags/javascript" style="font-size: 12px;">javascript</a>
+    
+    <a href="http://ali1213.github.io/tags/javscript" style="font-size: 12px;">javscript</a>
+    
+    <a href="http://ali1213.github.io/tags/jquery" style="font-size: 12px;">jquery</a>
+    
+    <a href="http://ali1213.github.io/tags/mongo" style="font-size: 12px;">mongo</a>
+    
+    <a href="http://ali1213.github.io/tags/node.js" style="font-size: 12px;">node.js</a>
+    
+    <a href="http://ali1213.github.io/tags/tesseract" style="font-size: 12px;">tesseract</a>
+    
+    <a href="http://ali1213.github.io/tags/understanding-ecmascipt6" style="font-size: 12px;">understanding-ecmascipt6</a>
+    
+    <a href="http://ali1213.github.io/tags/%e4%b9%a6%e7%b1%8d" style="font-size: 12px;">书籍</a>
+    
+    <a href="http://ali1213.github.io/tags/%e4%bd%a0%e4%b8%8d%e7%9f%a5%e9%81%93%e7%9a%84javascript" style="font-size: 12px;">你不知道的javascript</a>
+    
+    <a href="http://ali1213.github.io/tags/%e5%8d%9a%e5%ae%a2" style="font-size: 12px;">博客</a>
+    
+    <a href="http://ali1213.github.io/tags/%e6%8a%80%e5%b7%a7" style="font-size: 12px;">技巧</a>
+    
+    <a href="http://ali1213.github.io/tags/%e6%ad%a3%e5%88%99" style="font-size: 12px;">正则</a>
+    
+    <a href="http://ali1213.github.io/tags/%e9%94%8b%e5%88%a9%e7%9a%84jquery" style="font-size: 12px;">锋利的jquery</a>
+    
+    <a href="http://ali1213.github.io/tags/%e9%a1%b9%e7%9b%ae" style="font-size: 12px;">项目</a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</aside>
+
+<div>
+    <span id="busuanzi_container_site_pv">
+        总浏览数:<span id="busuanzi_value_site_pv"></span>次
+    </span><br />
+    <span id="busuanzi_container_site_uv">
+      总访客数:<span id="busuanzi_value_site_uv"></span>次
+    </span>
+  </div>
+</div>
+
+  </div>
+  <footer><div id="footer" >
+  
+  <div class="line">
+    <span></span>
+    <div style='background:no-repeat url("http://ali1213.github.io/img/author.png") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
+  </div>
+  
+  
+  <section class="info">
+    <p>阿力把勤奋的小人捡起来 <br/> Be Alive Keep Coding</p>
+  </section>
+  
+  <div class="social-font clearfix">
+    
+    <a href="http://weibo.com/coderzh" target="_blank" title="weibo"></a>
+    
+    
+    <a href="https://twitter.com/coderzh" target="_blank" title="twitter"></a>
+    
+    
+    <a href="https://github.com/ali1213" target="_blank" title="github"></a>
+    
+    
+    <a href="https://www.facebook.com/coderzh" target="_blank" title="facebook"></a>
+    
+    
+    <a href="https://www.linkedin.com/coderzh" target="_blank" title="linkedin"></a>
+    
+  </div>
+  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2018
+    
+    <a href="http://ali1213.github.io/" title="欢迎来到Ali的秘密花园">欢迎来到Ali的秘密花园</a>
+    
+  </p>
+</div>
+</footer>
+  <script src="http://ali1213.github.io/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+done = false;
+$(document).ready(function(){
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize();
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  $('form.search').on('submit', function (event) {
+    if (false === done) {
+      event.preventDefault();
+      var orgVal = $(this).find('#search').val();
+      $(this).find('#search').val('site:http:\/\/ali1213.github.io\/ ' + orgVal);
+      done = true;
+      $(this).submit();
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});
+</script>
+
+
+<link rel="stylesheet" href="http://ali1213.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://ali1213.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
+
+
+
+
+</body>
+</html>

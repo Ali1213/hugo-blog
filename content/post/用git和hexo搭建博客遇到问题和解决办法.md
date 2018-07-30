@@ -1,7 +1,7 @@
 +++
 date = "2016-04-16T11:56:09+08:00"
 title = "用git和hexo搭建博客遇到问题和解决办法"
-categories = ["工具使用"]
+categories = ["工具"]
 tags = ["博客", "hexo"]
 toc = true
 author = "ali"

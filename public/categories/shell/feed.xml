@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shell on 欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/categories/shell/</link>
+    <description>Recent content in Shell on 欢迎来到Ali的秘密花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 07 Sep 2017 16:25:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://ali1213.github.io/categories/shell/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>自动部署hexo生成的github博客</title>
+      <link>http://ali1213.github.io/post/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hexo%E7%94%9F%E6%88%90%E7%9A%84github%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 07 Sep 2017 16:25:15 +0000</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hexo%E7%94%9F%E6%88%90%E7%9A%84github%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;不想用第三方的travis-ci实现自动部署博客，但是gitbub提供的钩子折腾了下，遇到了个坑。
+休息的时候突然想了想，这个钩子其实就是在git push（或者其他操作）的时候触发自定义的命令而已。
+其实我每写一篇文件发布，还需要运行hexo插件的一些操作。
+为什么我不用shell做这些事情呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
