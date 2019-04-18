@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>正则 on 欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/tags/%E6%AD%A3%E5%88%99/</link>
+    <description>Recent content in 正则 on 欢迎来到Ali的秘密花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 21 Oct 2016 14:29:43 +0800</lastBuildDate>
+    
+	<atom:link href="http://ali1213.github.io/tags/%E6%AD%A3%E5%88%99/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>正则表达式字面量一个bug(续)</title>
+      <link>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug-%E7%BB%AD/</link>
+      <pubDate>Fri, 21 Oct 2016 14:29:43 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug-%E7%BB%AD/</guid>
+      <description>var toCamel = function (json) { var re = /(_\w)/g; var rename = &amp;quot;&amp;quot;; var arr = []; var i = 0; for (var attr in json) { arr[i] = attr; i++; }; for (i = 0; i &amp;lt; arr.length; i++) { var attr = arr[i]; if (typeof json[attr] === &amp;quot;object&amp;quot;) { json[attr] = arguments.callee(json[attr]); }; if (arr[i].match(re)) { rename = attr.replace(re, function($0) { return $0.substring(1).toUpperCase(); }); json[rename] = json[attr];</description>
+    </item>
+    
+    <item>
+      <title>正则表达式字面量一个bug</title>
+      <link>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug/</link>
+      <pubDate>Wed, 21 Sep 2016 15:07:52 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug/</guid>
+      <description>引言 事情起源于乙方数据库接口都是&amp;rdquo;nick_name&amp;rdquo;这种带下划线的格式: { message:&amp;quot;&amp;quot;, nick_name:&amp;quot;&amp;quot;, data:{ contact_tel:&amp;quot;&amp;quot; } } 我需要写一个小程序将驼峰格式</description>
+    </item>
+    
+    <item>
+      <title>js有关正则的几个题目</title>
+      <link>http://ali1213.github.io/post/js%E6%9C%89%E5%85%B3%E6%AD%A3%E5%88%99%E7%9A%84%E5%87%A0%E4%B8%AA%E9%A2%98%E7%9B%AE/</link>
+      <pubDate>Wed, 20 Apr 2016 14:14:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/js%E6%9C%89%E5%85%B3%E6%AD%A3%E5%88%99%E7%9A%84%E5%87%A0%E4%B8%AA%E9%A2%98%E7%9B%AE/</guid>
+      <description>题目1 写一个字符串转成驼峰的方法 如：&amp;rdquo;border-bottom-color&amp;rdquo;-&amp;gt;&amp;ldquo;borderB</description>
+    </item>
+    
+  </channel>
+</rss>

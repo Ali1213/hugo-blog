@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/feed.xml</link>
+    <description>Recent content on 欢迎来到Ali的秘密花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 19 Apr 2019 00:25:31 +0800</lastBuildDate>
+    
+	<atom:link href="http://ali1213.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>768. Max Chunks To Make Sorted II 可排序的最大块数 II</title>
+      <link>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</link>
+      <pubDate>Fri, 19 Apr 2019 00:25:31 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</guid>
+      <description>题目大意 给一个数组给你，数组里面全是数字，把数组分成独立的块，每块独立排序后和整个数组排序的结果相同， 问最多可以把这个数组分成几块 Problem Given an array arr</description>
+    </item>
+    
+    <item>
+      <title>《智能时代》读后感</title>
+      <link>http://ali1213.github.io/post/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E8%AF%BB%E5%90%8E%E6%84%9F/</link>
+      <pubDate>Fri, 19 Apr 2019 00:25:31 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E8%AF%BB%E5%90%8E%E6%84%9F/</guid>
+      <description>其实这本书看完了有段时间了，一直提笔想写点什么。却始终没有落笔，今天花了一些时间想优化一下部门的部署方式，就跟朋友聊了一下，发现他们公司现在</description>
+    </item>
+    
+    <item>
+      <title>博客静态生成器从hexo更换为hugo</title>
+      <link>http://ali1213.github.io/post/%E5%8D%9A%E5%AE%A2%E9%9D%99%E6%80%81%E7%94%9F%E6%88%90%E5%99%A8%E4%BB%8Ehexo%E6%9B%B4%E6%8D%A2%E4%B8%BAhugo/</link>
+      <pubDate>Mon, 30 Apr 2018 12:13:19 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%8D%9A%E5%AE%A2%E9%9D%99%E6%80%81%E7%94%9F%E6%88%90%E5%99%A8%E4%BB%8Ehexo%E6%9B%B4%E6%8D%A2%E4%B8%BAhugo/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;好久没有动手写博客了，之前也一直考虑准备学一门其他语言。再加上hexo确实给我的体验并不是太好。所以准备把博客生成器从hexo更换成hugo&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://ali1213.github.io/about/</link>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://ali1213.github.io/about/</guid>
+      <description>介绍 姓名：喻思力</description>
+    </item>
+    
+    <item>
+      <title>mongoDB常规操作-查询操作符</title>
+      <link>http://ali1213.github.io/post/mongodb%E5%B8%B8%E8%A7%84%E6%93%8D%E4%BD%9C-%E6%9F%A5%E8%AF%A2%E6%93%8D%E4%BD%9C%E7%AC%A6/</link>
+      <pubDate>Sat, 10 Feb 2018 22:31:09 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/mongodb%E5%B8%B8%E8%A7%84%E6%93%8D%E4%BD%9C-%E6%9F%A5%E8%AF%A2%E6%93%8D%E4%BD%9C%E7%AC%A6/</guid>
+      <description>前言 最近看Mongo权威指南的时候，偶然间查了下mongo的官方文档，发现其实增加了很多新的API，打算系统性的过一遍。 比较操作符 $eq 没啥用 因</description>
+    </item>
+    
+    <item>
+      <title>《你不知道的JavaScript-中》读书笔记</title>
+      <link>http://ali1213.github.io/post/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 18 Oct 2017 00:53:13 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%AD%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这本书的中册还是相当值得推荐的。
+就算对在异步流程中已经踩过很多坑的我来说，也还是有些可以值得学习的东西。&lt;/p&gt;
+
+&lt;p&gt;只把自己记下来的东西写一下，推荐大家还是可以看书。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>对象、类、原型和委托《你不知道的JavaScript-上》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%A7%94%E6%89%98%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Tue, 10 Oct 2017 21:33:28 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%8E%9F%E5%9E%8B%E5%92%8C%E5%A7%94%E6%89%98%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;这本书类和行为委托的部分忍不住看了第二遍。觉得观点很新颖，很有意思。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>作用域和闭包《你不知道的JavaScript-上》读书笔记1</title>
+      <link>http://ali1213.github.io/post/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Sun, 08 Oct 2017 00:28:58 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84javascript-%E4%B8%8A%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;5月份的时候立了一个flag，然后就被打脸。
+辞职，失恋。
+新的工作，频繁的加班。
+走三步退两步的减肥计划。
+堕落……&lt;/p&gt;
+
+&lt;p&gt;今天看了电影《被嫌弃的松子的一生》
+隐隐的害怕。&lt;/p&gt;
+
+&lt;p&gt;往前走吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>自动部署hexo生成的github博客</title>
+      <link>http://ali1213.github.io/post/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hexo%E7%94%9F%E6%88%90%E7%9A%84github%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 07 Sep 2017 16:25:15 +0000</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2hexo%E7%94%9F%E6%88%90%E7%9A%84github%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;不想用第三方的travis-ci实现自动部署博客，但是gitbub提供的钩子折腾了下，遇到了个坑。
+休息的时候突然想了想，这个钩子其实就是在git push（或者其他操作）的时候触发自定义的命令而已。
+其实我每写一篇文件发布，还需要运行hexo插件的一些操作。
+为什么我不用shell做这些事情呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Promise-《understanding-ECMAScipt6》读书笔记11</title>
+      <link>http://ali1213.github.io/post/promise-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B011/</link>
+      <pubDate>Wed, 05 Jul 2017 00:09:59 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/promise-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B011/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;最近实在是发生太多事情。
+昨天差点露宿接头，今天终于把房子搞定了。
+接下来，又可以专心的写代码了。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数组的增强 -《understanding-ECMAScipt6》读书笔记10</title>
+      <link>http://ali1213.github.io/post/%E6%95%B0%E7%BB%84%E7%9A%84%E5%A2%9E%E5%BC%BA-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B010/</link>
+      <pubDate>Thu, 08 Jun 2017 20:04:51 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%95%B0%E7%BB%84%E7%9A%84%E5%A2%9E%E5%BC%BA-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B010/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;前两天看了别人写的博客，对某些知识点挖掘的深度和对知识点描述语言的通俗令我赞叹。
+我写的这一系列读书笔记的初衷是想写给自己备忘的。
+最初的目的，是想要翻到这个文章，就能够自己看的懂描述。
+毕竟有些东西，不常用，细节不一定记得那么清楚。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>class -《understanding ECMAScipt6》读书笔记9</title>
+      <link>http://ali1213.github.io/post/class-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B09/</link>
+      <pubDate>Wed, 07 Jun 2017 16:53:53 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/class-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B09/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;记得之前有一次面试，面试官问我，有几种面对对象的设计方式。
+我一下懵了，，虽然高级程序设计的第六章我看了好多遍，但确实太久没有用了，如果没有准备面试是对面试官的不尊重，我确实有点失礼了。
+有些人说，es6，没有必要记那么多种复杂的类的实现方式了。
+我偏向于这种说法，prototype单词实在太长，而且类的实现方式隐晦难懂。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iterators &amp; generators-《understanding ECMAScipt6》读书笔记8</title>
+      <link>http://ali1213.github.io/post/iterators-generators-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B08/</link>
+      <pubDate>Wed, 31 May 2017 13:04:41 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/iterators-generators-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B08/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;果然不能立flag，上次文章都写完了，可是hexo出了点小问题，再加上正好回家，所以延后了几天。&lt;/p&gt;
+
+&lt;p&gt;发现之前一直提到 迭代器 和 生成器的字眼。其实一直没有讲这方面的东东。iterators 在es6中应用的还是挺广的，set，map，array，string都有这样的入口，generators是es7中async的基础。个人认为还是挺重要的。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>工作总结及交接</title>
+      <link>http://ali1213.github.io/post/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93%E5%8F%8A%E4%BA%A4%E6%8E%A5/</link>
+      <pubDate>Sat, 27 May 2017 23:38:39 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93%E5%8F%8A%E4%BA%A4%E6%8E%A5/</guid>
+      <description>&lt;p&gt;现阶段手头上的工作主要有两块，两份工作均告一段落，但日后可能有新的需求或者异常。所以记录一下两块项目的工作内容和具体的思路，方便其他人维护。&lt;/p&gt;
+
+&lt;p&gt;下面列一下具体内容:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;翼萨项目
+
+&lt;ul&gt;
+&lt;li&gt;生成一系列docx文档&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;同洲易题项目
+
+&lt;ul&gt;
+&lt;li&gt;docx转json（划重点）&lt;/li&gt;
+&lt;li&gt;按数据生成xlsx&lt;/li&gt;
+&lt;li&gt;解析xlsx&lt;/li&gt;
+&lt;li&gt;根据后台题目数据生成简单试卷，格式为docx&lt;/li&gt;
+&lt;li&gt;收藏功能本地数据库库同步
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;翼萨项目&#34;&gt;翼萨项目&lt;/h2&gt;
+
+&lt;h3 id=&#34;项目地址&#34;&gt;项目地址&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://develop.coolcto.com/lipengcheng/yisa-consulting-services-portal-frontend&#34;&gt;http://develop.coolcto.com/lipengcheng/yisa-consulting-services-portal-frontend&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sets和Maps《understanding ECMAScipt6》读书笔记7</title>
+      <link>http://ali1213.github.io/post/sets%E5%92%8Cmapsunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B07/</link>
+      <pubDate>Fri, 19 May 2017 14:16:26 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/sets%E5%92%8Cmapsunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B07/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;让我们来愉快的立一个Flag:
+每周写一篇文章
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Symbol《understanding ECMAScipt6》读书笔记6</title>
+      <link>http://ali1213.github.io/post/symbolunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06/</link>
+      <pubDate>Thu, 27 Apr 2017 18:08:30 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/symbolunderstanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B06/</guid>
+      <description>&lt;h2 id=&#34;什么是symbol&#34;&gt;什么是Symbol&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ES6 新增的类型&lt;/li&gt;
+&lt;li&gt;原始类型&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解构赋值-《understanding ECMAScipt6》读书笔记5</title>
+      <link>http://ali1213.github.io/post/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</link>
+      <pubDate>Wed, 26 Apr 2017 17:02:51 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B05/</guid>
+      <description>&lt;h2 id=&#34;对象解构赋值&#34;&gt;对象解构赋值&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;let node = {
+    type: &amp;quot;string&amp;quot;,
+    name: &amp;quot;foo&amp;quot;
+};
+let {type, name} = node;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>对象的功能扩展-《understanding ECMAScipt6》读书笔记4</title>
+      <link>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <pubDate>Tue, 25 Apr 2017 18:33:46 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%89%A9%E5%B1%95-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <description>&lt;h2 id=&#34;对象分类&#34;&gt;对象分类&lt;/h2&gt;
+
+&lt;p&gt;ES6将对象分为以下几类:
++ 普通对象
++ 外来对象
++ 标准对象
++ 内建对象&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>函数-《understanding ECMAScipt6》读书笔记3</title>
+      <link>http://ali1213.github.io/post/%E5%87%BD%E6%95%B0-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
+      <pubDate>Mon, 17 Apr 2017 12:35:56 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%87%BD%E6%95%B0-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
+      <description>&lt;p&gt;##前言
+其实这本书已经看完很久了。前几天突然有人在微信群里分享了别人的翻译版本。如果有些人会觉得这本书英文比较难理解，还是可以去找翻译版的看一看。
+我还是接着回顾一下知识点吧。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>字符串和正则表达式-《understanding ECMAScipt6》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Wed, 15 Mar 2017 21:30:22 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;p&gt;ES6增加了对字符串和正则表达式更好的支持
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>块级作用域-《understanding ECMAScipt6》读书笔记1</title>
+      <link>http://ali1213.github.io/post/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
+      <pubDate>Wed, 15 Mar 2017 20:22:12 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</guid>
+      <description>&lt;h2 id=&#34;针对的问题&#34;&gt;针对的问题&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;变量提升 令人困惑&lt;/li&gt;
+&lt;li&gt;改变window对象或global对象的属性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tesseract训练中文字体识别</title>
+      <link>http://ali1213.github.io/post/tesseract%E8%AE%AD%E7%BB%83%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E8%AF%86%E5%88%AB/</link>
+      <pubDate>Tue, 14 Feb 2017 19:53:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/tesseract%E8%AE%AD%E7%BB%83%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93%E8%AF%86%E5%88%AB/</guid>
+      <description>&lt;p&gt;注：目前仅说明windows下的情况&lt;/p&gt;
+
+&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;网上已经有大量的tesseract的识别教程，但是主要有两个缺点：
++ 大多数比较老，有部分内容已经不适用。
++ 大部分只是就英文的训练进行探索，很少针对中文的训练。
+接下来尽可能详细的介绍自己tesseract训练中文识别的经验。&lt;/p&gt;
+
+&lt;p&gt;本文中使用的tesseract版本为3.05;
+为什么用3.05呢？
+从官方文档上看4.0版本（windows版本于2017年1月30号发布）显著的提高了识别率，同时也加大了性能的消耗。理论上我是应该用4.0。但这不是重点。重点是有windows的版本有诡异的bug! 花了好久没有解决。
+不过还好，4.0支持3.05版本的所有语法。换而言之，下面的所有内容在4.0都是可以用的。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数字转字母</title>
+      <link>http://ali1213.github.io/post/%E6%95%B0%E5%AD%97%E8%BD%AC%E5%AD%97%E6%AF%8D/</link>
+      <pubDate>Wed, 08 Feb 2017 18:03:49 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%95%B0%E5%AD%97%E8%BD%AC%E5%AD%97%E6%AF%8D/</guid>
+      <description>前言 这两天有个事情是要生成限定区域，限定内容的excel。 有点恶心的说。今天花了大半天时间写了个初稿。 其中我要求输入函数的参数包括行和列的数</description>
+    </item>
+    
+    <item>
+      <title>2016年总结---看过的那些书</title>
+      <link>http://ali1213.github.io/post/2016%E5%B9%B4%E6%80%BB%E7%BB%93-%E7%9C%8B%E8%BF%87%E7%9A%84%E9%82%A3%E4%BA%9B%E4%B9%A6/</link>
+      <pubDate>Wed, 08 Feb 2017 17:41:12 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/2016%E5%B9%B4%E6%80%BB%E7%BB%93-%E7%9C%8B%E8%BF%87%E7%9A%84%E9%82%A3%E4%BA%9B%E4%B9%A6/</guid>
+      <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+
+&lt;p&gt;2016年大概是我最艰难的一年，贫穷，工作的压力，生活中不被理解。自己也做了很多错事。不过幸运的是，这一年有很多本书陪着我，无论是地铁上，还是深夜的枕边。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>十行代码教你用node.js读取docx中的文本</title>
+      <link>http://ali1213.github.io/post/%E5%8D%81%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%95%99%E4%BD%A0%E7%94%A8node-js%E8%AF%BB%E5%8F%96docx%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC/</link>
+      <pubDate>Fri, 16 Dec 2016 19:30:15 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%8D%81%E8%A1%8C%E4%BB%A3%E7%A0%81%E6%95%99%E4%BD%A0%E7%94%A8node-js%E8%AF%BB%E5%8F%96docx%E4%B8%AD%E7%9A%84%E6%96%87%E6%9C%AC/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;最近有一个case。需要去解析word文档。有两个需求，一个是将word文档转成PDF，一个是将word文档中的内容按照一定的规范读取到数据库中，去npm仓库找了大概有十几个包，发现主要是通过以下的方式来转换代码。
++ 通过调用系统底层程序（比如说office）的API来转换；
++ 通过模板，替换数据来实现生成PDF；
++ 通过有些免费将word转成PDF的网站来实现将word转成PDF，比如docx-to-pdf；&lt;/p&gt;
+
+&lt;p&gt;后来退而求其次，想通过先将docx转成文字，发现了个textract的包。
+当然也有缺点，不支持docx中的标题号，不支持图片等文件。&lt;/p&gt;
+
+&lt;p&gt;不怕死的我决定自己干这件事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小技巧-console界面使用jQuery</title>
+      <link>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</link>
+      <pubDate>Tue, 29 Nov 2016 20:46:55 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%B0%8F%E6%8A%80%E5%B7%A7-console%E7%95%8C%E9%9D%A2%E4%BD%BF%E7%94%A8jquery/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;作为一个前端工程师，偶尔还是会经常在google浏览器的console写写代码，记得第一次在console写代码，真是觉得超酷！
+最开始在控制台，我就很自然的用到jQuery。
+直到有一天，我输入&lt;code&gt;$(&amp;quot;&amp;quot;)&lt;/code&gt;，浏览器给我报了个错！
+what the fuck！！！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>正则表达式字面量一个bug(续)</title>
+      <link>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug-%E7%BB%AD/</link>
+      <pubDate>Fri, 21 Oct 2016 14:29:43 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug-%E7%BB%AD/</guid>
+      <description>var toCamel = function (json) { var re = /(_\w)/g; var rename = &amp;quot;&amp;quot;; var arr = []; var i = 0; for (var attr in json) { arr[i] = attr; i++; }; for (i = 0; i &amp;lt; arr.length; i++) { var attr = arr[i]; if (typeof json[attr] === &amp;quot;object&amp;quot;) { json[attr] = arguments.callee(json[attr]); }; if (arr[i].match(re)) { rename = attr.replace(re, function($0) { return $0.substring(1).toUpperCase(); }); json[rename] = json[attr];</description>
+    </item>
+    
+    <item>
+      <title>正则表达式字面量一个bug</title>
+      <link>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug/</link>
+      <pubDate>Wed, 21 Sep 2016 15:07:52 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%AD%97%E9%9D%A2%E9%87%8F%E4%B8%80%E4%B8%AAbug/</guid>
+      <description>引言 事情起源于乙方数据库接口都是&amp;rdquo;nick_name&amp;rdquo;这种带下划线的格式: { message:&amp;quot;&amp;quot;, nick_name:&amp;quot;&amp;quot;, data:{ contact_tel:&amp;quot;&amp;quot; } } 我需要写一个小程序将驼峰格式</description>
+    </item>
+    
+    <item>
+      <title>图形化工具SmartGit简单介绍</title>
+      <link>http://ali1213.github.io/post/%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%B7%A5%E5%85%B7smartgit%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Fri, 09 Sep 2016 11:56:09 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%9B%BE%E5%BD%A2%E5%8C%96%E5%B7%A5%E5%85%B7smartgit%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/</guid>
+      <description>git图形化工具一览 软件名 支持系统 是否收费 备注 TortoiseGit winxp+ free 支持中文 SmartGit win7+,OS10.9-`10.11,linux free for non-commercial use SourceTree win7+,OS10.10+ free 支持中文 Git GUI win7+,OS10.09+ free 下面介绍一下SmartGit的常用操作。 win</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记4</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</link>
+      <pubDate>Mon, 16 May 2016 21:18:23 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B04/</guid>
+      <description>前言 昨天晚上看完了JQ第四章, 话说其实每天要用电脑打字感觉挺累的。上班敲了一天的代码，下班感觉什么都不想动。 jQuery中的事件和动画 事件 这</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记3</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</link>
+      <pubDate>Sun, 15 May 2016 16:41:24 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B03/</guid>
+      <description>前言 前阵子在知乎上看到有一个问题是：“JQ有没有过时”，感觉最悲惨的事情莫过于，你还是刚刚开始熟练，别人却在讨论JQ的过时。随着ES6的诞生</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Sun, 01 May 2016 19:03:25 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>前言 好几天因为各种事，也没有好好学习，内心不安。。今天忙完了。继续总结下《锋利的jQuery》第二章。 第二章主要是介绍了jQuery的选择器</description>
+    </item>
+    
+    <item>
+      <title>js有关正则的几个题目</title>
+      <link>http://ali1213.github.io/post/js%E6%9C%89%E5%85%B3%E6%AD%A3%E5%88%99%E7%9A%84%E5%87%A0%E4%B8%AA%E9%A2%98%E7%9B%AE/</link>
+      <pubDate>Wed, 20 Apr 2016 14:14:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/js%E6%9C%89%E5%85%B3%E6%AD%A3%E5%88%99%E7%9A%84%E5%87%A0%E4%B8%AA%E9%A2%98%E7%9B%AE/</guid>
+      <description>题目1 写一个字符串转成驼峰的方法 如：&amp;rdquo;border-bottom-color&amp;rdquo;-&amp;gt;&amp;ldquo;borderB</description>
+    </item>
+    
+    <item>
+      <title>锋利的jQuery-读书笔记</title>
+      <link>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 19 Apr 2016 23:17:47 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E9%94%8B%E5%88%A9%E7%9A%84jquery-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>前言 之前一直在看秒味课堂的视频，最开始看css2和html的话还挺好，各种课后作业可以做。后来看css3、html5、jq、anglarjs</description>
+    </item>
+    
+    <item>
+      <title>css选择器及选择器的优先级</title>
+      <link>http://ali1213.github.io/post/css%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7/</link>
+      <pubDate>Mon, 18 Apr 2016 16:14:28 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/css%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E9%80%89%E6%8B%A9%E5%99%A8%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7/</guid>
+      <description>前言 自打我开了博客以来，这基本上就是我第一个考虑写的文章。 话说来长，去年10月28号左右，刚刚看完《Head First HTML与CSS(第2版》的我</description>
+    </item>
+    
+    <item>
+      <title>分享一下我现在用的next主题</title>
+      <link>http://ali1213.github.io/post/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%8B%E6%88%91%E7%8E%B0%E5%9C%A8%E7%94%A8%E7%9A%84next%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Mon, 18 Apr 2016 15:14:28 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%8B%E6%88%91%E7%8E%B0%E5%9C%A8%E7%94%A8%E7%9A%84next%E4%B8%BB%E9%A2%98/</guid>
+      <description>换主题所需要的资源 上一个主题在刚用了两天就不能满足我了。所以赶紧换上了现在的主题。比较喜欢这个主题的功能。 所需要的资源如下 - hexo的官网，</description>
+    </item>
+    
+    <item>
+      <title>用git和hexo搭建博客遇到问题和解决办法</title>
+      <link>http://ali1213.github.io/post/%E7%94%A8git%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E5%92%8C%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+      <pubDate>Sat, 16 Apr 2016 11:56:09 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E7%94%A8git%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E5%92%8C%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+      <description>前言 昨天花了好几个小时，才把自己的第一个博客搭建起来。现在写下这篇简单记录一下自己遇到的坑，和一些常用操作，以便备忘。 git的一些操作 因为之</description>
+    </item>
+    
+  </channel>
+</rss>
