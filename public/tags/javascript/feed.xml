@@ -6,10 +6,19 @@
     <description>Recent content in Javascript on 欢迎来到Ali的秘密花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Oct 2017 00:53:13 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2019 00:25:31 +0800</lastBuildDate>
     
 	<atom:link href="http://ali1213.github.io/tags/javascript/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>768. Max Chunks To Make Sorted II 可排序的最大块数 II</title>
+      <link>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</link>
+      <pubDate>Fri, 19 Apr 2019 00:25:31 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</guid>
+      <description>题目大意 给一个数组给你，数组里面全是数字，把数组分成独立的块，每块独立排序后和整个数组排序的结果相同， 问最多可以把这个数组分成几块 Problem Given an array arr</description>
+    </item>
     
     <item>
       <title>《你不知道的JavaScript-中》读书笔记</title>

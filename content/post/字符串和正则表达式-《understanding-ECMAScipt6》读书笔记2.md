@@ -1,5 +1,5 @@
 +++
-date = "2017-03-15T221:30:22+08:00"
+date = "2017-03-15T21:30:22+08:00"
 title = "字符串和正则表达式-《understanding ECMAScipt6》读书笔记2"
 categories = ["读书笔记"]
 tags = ["javscript","ES6","understanding ECMAScipt6"]

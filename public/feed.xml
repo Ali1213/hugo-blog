@@ -6,10 +6,19 @@
     <description>Recent content on 欢迎来到Ali的秘密花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Apr 2018 12:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2019 00:25:31 +0800</lastBuildDate>
     
 	<atom:link href="http://ali1213.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>768. Max Chunks To Make Sorted II 可排序的最大块数 II</title>
+      <link>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</link>
+      <pubDate>Fri, 19 Apr 2019 00:25:31 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</guid>
+      <description>题目大意 给一个数组给你，数组里面全是数字，把数组分成独立的块，每块独立排序后和整个数组排序的结果相同， 问最多可以把这个数组分成几块 Problem Given an array arr</description>
+    </item>
     
     <item>
       <title>博客静态生成器从hexo更换为hugo</title>
@@ -278,6 +287,16 @@ let {type, name} = node;
     </item>
     
     <item>
+      <title>字符串和正则表达式-《understanding ECMAScipt6》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Wed, 15 Mar 2017 21:30:22 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;p&gt;ES6增加了对字符串和正则表达式更好的支持
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>块级作用域-《understanding ECMAScipt6》读书笔记1</title>
       <link>http://ali1213.github.io/post/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Wed, 15 Mar 2017 20:22:12 +0800</pubDate>
@@ -469,16 +488,6 @@ what the fuck！！！&lt;/p&gt;
       
       <guid>http://ali1213.github.io/post/%E7%94%A8git%E5%92%8Chexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E9%81%87%E5%88%B0%E9%97%AE%E9%A2%98%E5%92%8C%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
       <description>前言 昨天花了好几个小时，才把自己的第一个博客搭建起来。现在写下这篇简单记录一下自己遇到的坑，和一些常用操作，以便备忘。 git的一些操作 因为之</description>
-    </item>
-    
-    <item>
-      <title>字符串和正则表达式-《understanding ECMAScipt6》读书笔记2</title>
-      <link>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
-      <description>&lt;p&gt;ES6增加了对字符串和正则表达式更好的支持
-&lt;/p&gt;</description>
     </item>
     
   </channel>

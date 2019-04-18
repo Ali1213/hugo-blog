@@ -114,6 +114,16 @@ let {type, name} = node;
     </item>
     
     <item>
+      <title>字符串和正则表达式-《understanding ECMAScipt6》读书笔记2</title>
+      <link>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
+      <pubDate>Wed, 15 Mar 2017 21:30:22 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
+      <description>&lt;p&gt;ES6增加了对字符串和正则表达式更好的支持
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>块级作用域-《understanding ECMAScipt6》读书笔记1</title>
       <link>http://ali1213.github.io/post/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B01/</link>
       <pubDate>Wed, 15 Mar 2017 20:22:12 +0800</pubDate>
@@ -127,16 +137,6 @@ let {type, name} = node;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>字符串和正则表达式-《understanding ECMAScipt6》读书笔记2</title>
-      <link>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ali1213.github.io/post/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8C%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F-understanding-ecmascipt6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B02/</guid>
-      <description>&lt;p&gt;ES6增加了对字符串和正则表达式更好的支持
-&lt;/p&gt;</description>
     </item>
     
   </channel>
