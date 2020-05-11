@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 欢迎来到Ali的秘密花园</title>
+    <link>http://ali1213.github.io/tags/docker/</link>
+    <description>Recent content in Docker on 欢迎来到Ali的秘密花园</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 11 May 2020 18:19:37 +0800</lastBuildDate>
+    
+	<atom:link href="http://ali1213.github.io/tags/docker/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker开发指南 读书笔记</title>
+      <link>http://ali1213.github.io/post/docker%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 11 May 2020 18:19:37 +0800</pubDate>
+      
+      <guid>http://ali1213.github.io/post/docker%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>第一章: 何为容器 容器相比虚拟机的优点 与主机共享资源，性能损耗非常低 移植性更好 轻量 资源多，用户使用友好 第十三章: 容器安全与限制容器 需要考虑到的</description>
+    </item>
+    
+  </channel>
+</rss>

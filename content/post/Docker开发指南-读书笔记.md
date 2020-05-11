@@ -1,12 +1,12 @@
----
-title: "Docker开发指南 读书笔记"
-date: 2020-05-11T18:19:37+08:00
-draft: true
-categories: ["读书笔记"]
-tags: ["docker"]
-author: "ali"
-author_homepage: "http://ali1213.github.io/post/"
----
++++
+date = "2020-05-11T18:19:37+08:00"
+title = "Docker开发指南 读书笔记"
+categories = ["读书笔记"]
+tags = ["docker"]
+toc = true
+author = "ali"
+author_homepage =  "http://ali1213.github.io/post/"
++++
 
 
 ## 第一章: 何为容器

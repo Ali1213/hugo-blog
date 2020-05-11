@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://ali1213.github.io/post/docker%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-05-11T18:19:37+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://ali1213.github.io/post/768.-max-chunks-to-make-sorted-ii-%E5%8F%AF%E6%8E%92%E5%BA%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%9D%97%E6%95%B0-ii/</loc>
     <lastmod>2019-04-19T00:25:31+08:00</lastmod>
   </url>
@@ -205,6 +210,12 @@
   </url>
   
   <url>
+    <loc>http://ali1213.github.io/tags/docker/</loc>
+    <lastmod>2020-05-11T18:19:37+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://ali1213.github.io/tags/es6/</loc>
     <lastmod>2017-10-10T21:33:28+08:00</lastmod>
     <priority>0</priority>
@@ -260,7 +271,7 @@
   
   <url>
     <loc>http://ali1213.github.io/post/</loc>
-    <lastmod>2019-04-19T00:25:31+08:00</lastmod>
+    <lastmod>2020-05-11T18:19:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -344,7 +355,7 @@
   
   <url>
     <loc>http://ali1213.github.io/feed.xml</loc>
-    <lastmod>2019-04-19T00:25:31+08:00</lastmod>
+    <lastmod>2020-05-11T18:19:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -362,7 +373,7 @@
   
   <url>
     <loc>http://ali1213.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-02-10T22:31:09+08:00</lastmod>
+    <lastmod>2020-05-11T18:19:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   

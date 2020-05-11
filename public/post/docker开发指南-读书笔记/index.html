@@ -2,20 +2,20 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>书籍 - 欢迎来到Ali的秘密花园</title>
+  <title>Docker开发指南 读书笔记 - 欢迎来到Ali的秘密花园</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="书籍">
+  <meta name="description" content="第一章: 何为容器 容器相比虚拟机的优点 与主机共享资源，性能损耗非常低 移植性更好 轻量 资源多，用户使用友好 第十三章: 容器安全与限制容器 需要考虑到的">
   
-  <meta itemprop="name" content="书籍 - 欢迎来到Ali的秘密花园">
-  <meta itemprop="description" content="书籍">
+  <meta itemprop="name" content="Docker开发指南 读书笔记 - 欢迎来到Ali的秘密花园">
+  <meta itemprop="description" content="第一章: 何为容器 容器相比虚拟机的优点 与主机共享资源，性能损耗非常低 移植性更好 轻量 资源多，用户使用友好 第十三章: 容器安全与限制容器 需要考虑到的">
   <meta itemprop="image" content="http://ali1213.github.io/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@coderzh" />
-  <meta name="twitter:title" content="书籍 - 欢迎来到Ali的秘密花园" />
+  <meta name="twitter:title" content="Docker开发指南 读书笔记 - 欢迎来到Ali的秘密花园" />
   
   <meta name="twitter:description" content="Node.js和Go的使用者">
-  <link rel="alternate" href="http://ali1213.github.io/feed.xml" title="欢迎来到Ali的秘密花园" type="application/rss+xml"/>
+  
   <link rel="shortcut icon" href="http://ali1213.github.io/img/favicon.ico"/>
   <link rel="apple-touch-icon" href="http://ali1213.github.io/apple-touch-icon.png" />
   <link rel="apple-touch-icon-precomposed" href="http://ali1213.github.io/apple-touch-icon.png" />
@@ -61,35 +61,118 @@
 
   </header>
   <div id="container">
-    <div id="main">
-      
-      <h2 id="2019-04">2019-04</h2>
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://ali1213.github.io/post/%E6%99%BA%E8%83%BD%E6%97%B6%E4%BB%A3%E8%AF%BB%E5%90%8E%E6%84%9F/" title="《智能时代》读后感" itemprop="url">
-    <h1 itemprop="name">《智能时代》读后感</h1>
-    <p itemprop="description">其实这本书看完了有段时间了，一直提笔想写点什么。却始终没有落笔，今天花了一些时间想优化一下部门的部署方式，就跟朋友聊了一下，发现他们公司现在</p>
-    <time datetime="2019-04-19 00:25:31 &#43;0800 CST" itemprop="datePublished">2019年04月19日</time>
-  </a>
-</section>
+    <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody">
+    <header class="article-info clearfix">
+  <h1 itemprop="name">
+      <a href="http://ali1213.github.io/post/docker%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" title="Docker开发指南 读书笔记" itemprop="url">Docker开发指南 读书笔记</a>
+  </h1>
+  <span id="busuanzi_container_page_pv">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+  </span>
+  <p class="article-author">By
+    
+      <a href="http://ali1213.github.io/post/" title="ali">ali</a>
+    
+  </p>
+  <p class="article-time">
+    <time datetime="2020-05-11 18:19:37 &#43;0800 CST" itemprop="datePublished">2020年05月11日</time>
+  </p>
+</header>
 
-      
-      
-      <h2 id="2017-02">2017-02</h2>
-      
-      <section class="post" itemscope itemprop="blogPost">
-    <a href="http://ali1213.github.io/post/2016%E5%B9%B4%E6%80%BB%E7%BB%93-%E7%9C%8B%E8%BF%87%E7%9A%84%E9%82%A3%E4%BA%9B%E4%B9%A6/" title="2016年总结---看过的那些书" itemprop="url">
-    <h1 itemprop="name">2016年总结---看过的那些书</h1>
-    <p itemprop="description"><h1 id="前言">前言</h1>
+	<div class="article-content">
+    
+		<div class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#第一章-何为容器">第一章: 何为容器</a></li>
+<li><a href="#第十三章-容器安全与限制容器">第十三章: 容器安全与限制容器</a></li>
+</ul></li>
+</ul>
+</nav>
+		</div>
+    
+    
 
-<p>2016年大概是我最艰难的一年，贫穷，工作的压力，生活中不被理解。自己也做了很多错事。不过幸运的是，这一年有很多本书陪着我，无论是地铁上，还是深夜的枕边。</p></p>
-    <time datetime="2017-02-08 17:41:12 &#43;0800 CST" itemprop="datePublished">2017年02月08日</time>
-  </a>
-</section>
+<h2 id="第一章-何为容器">第一章: 何为容器</h2>
 
-      
-      
+<p>容器相比虚拟机的优点</p>
+
+<ul>
+<li>与主机共享资源，性能损耗非常低</li>
+<li>移植性更好</li>
+<li>轻量</li>
+<li>资源多，用户使用友好</li>
+</ul>
+
+<h2 id="第十三章-容器安全与限制容器">第十三章: 容器安全与限制容器</h2>
+
+<p>需要考虑到的安全事项</p>
+
+<ul>
+<li>内核漏洞: 所有容器与主机同一个内核</li>
+<li>拒绝服务(Dos)攻击: 所有容器共用相同的内核资源</li>
+<li>容器突破: 权限</li>
+<li>镜像污染</li>
+<li>秘钥泄漏</li>
+</ul>
+
+<p>可以做如下的事情
++ 最小权限
+    - 确保容器中进程权限不是root
+    - 文件系统设置为只读，需要写入的文件以数据卷的形式使用
+    - 减小容器能够调用的内核函数
+    - 限制容器使用的资源数: CPU和内存
+    - 使用gosu 不要使用sudo
++ 及时更新
++ 可信任的dockerfile
+    - FROM指令中必须使用标签
+    - 使用包管理安装软件时提供版本号
+    - 验证任何从网上下载的软件或者数据:比如在RUN命令里面用md5进行验证
++ 限制联网权限
++ 如果不需要，删除setuid和setgid的二进制文件: <code>find / -perm +6000 -type f -exec ls -ld {} \; 2&gt; /dev/null</code>
++ 限制重新启动次数</p>
+
+	</div>
+  <footer class="article-footer clearfix">
+  
+
+<div class="article-tags">
+  <span></span>
+  
+  <a href="http://ali1213.github.io/tags/docker">docker</a>
+  
+</div>
+
+
+
+
+
+<div class="article-categories">
+  <span></span>
+  
+  <a class="article-category-link" href="http://ali1213.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0">读书笔记</a>
+  
+</div>
+
+
+
+  <div class="article-share" id="share">
+    <div data-url="http://ali1213.github.io/post/docker%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" data-title="Docker开发指南 读书笔记" data-tsina="1816308191" class="share clearfix">
     </div>
+  </div>
+</footer>
+
+	</article>
+  
+
+
+
+</div>
+
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -332,10 +415,6 @@
 
 
   
-<div class="rsspart">
-  <a rel="nofollow" href="http://ali1213.github.io/feed.xml" type="application/rss+xml" target="_blank">RSS 订阅</a>
-</div>
-
 
 </aside>
 
@@ -443,6 +522,38 @@ $(document).ready(function(){
 
 <script type="text/javascript">
 $(document).ready(function(){
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
   var $this = $('.share'),
       url = $this.attr('data-url'),
       encodedUrl = encodeURIComponent(url),
@@ -469,6 +580,27 @@ $(document).ready(function(){
 });
 </script>
 
+
+<link rel="stylesheet" href="http://ali1213.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="http://ali1213.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+});
+</script>
 
 
 
