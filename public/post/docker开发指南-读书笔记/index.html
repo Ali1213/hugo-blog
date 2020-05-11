@@ -120,21 +120,30 @@
 <li>秘钥泄漏</li>
 </ul>
 
-<p>可以做如下的事情
-+ 最小权限
-    - 确保容器中进程权限不是root
-    - 文件系统设置为只读，需要写入的文件以数据卷的形式使用
-    - 减小容器能够调用的内核函数
-    - 限制容器使用的资源数: CPU和内存
-    - 使用gosu 不要使用sudo
-+ 及时更新
-+ 可信任的dockerfile
-    - FROM指令中必须使用标签
-    - 使用包管理安装软件时提供版本号
-    - 验证任何从网上下载的软件或者数据:比如在RUN命令里面用md5进行验证
-+ 限制联网权限
-+ 如果不需要，删除setuid和setgid的二进制文件: <code>find / -perm +6000 -type f -exec ls -ld {} \; 2&gt; /dev/null</code>
-+ 限制重新启动次数</p>
+<p>可以做如下的事情</p>
+
+<ul>
+<li>最小权限
+
+<ul>
+<li>确保容器中进程权限不是root</li>
+<li>文件系统设置为只读，需要写入的文件以数据卷的形式使用</li>
+<li>减小容器能够调用的内核函数</li>
+<li>限制容器使用的资源数: CPU和内存</li>
+<li>使用gosu 不要使用sudo</li>
+</ul></li>
+<li>及时更新</li>
+<li>可信任的dockerfile
+
+<ul>
+<li>FROM指令中必须使用标签</li>
+<li>使用包管理安装软件时提供版本号</li>
+<li>验证任何从网上下载的软件或者数据:比如在RUN命令里面用md5进行验证</li>
+</ul></li>
+<li>限制联网权限</li>
+<li>如果不需要，删除setuid和setgid的二进制文件: <code>find / -perm +6000 -type f -exec ls -ld {} \; 2&gt; /dev/null</code></li>
+<li>限制重新启动次数</li>
+</ul>
 
 	</div>
   <footer class="article-footer clearfix">
